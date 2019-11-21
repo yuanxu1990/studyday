@@ -98,50 +98,116 @@ print(s4,s5)
 
 #购物车 作业
 
+# 第一次做的
+# info=[{'name':'香蕉','price':20},
+#       {'name':'桃子','price':30},
+#       {'name':'蓝莓','price':30}
+#       ]
+# print('*******欢迎光临水果店******')
+# money=(input('请问你有多少money'))
+# flag=True
+# buy_car=[]
+# while flag:
+#     if str(money).isdigit() and int(money)>0:
+#             for k,v in enumerate(info):
+#                 print('序号{},品种{},价格{}'.format(k,v.get('name'),v.get('price')))
+#             selct=input('请输入序列号')
+#             money=int(money)
+#             if selct.isdigit() and int(selct)<len(info):
+#                 selct=int(selct)
+#                 if selct==0:
+#                     if money>int(info[selct].get('price')):
+#                         buy_car.append(info[selct].get('name'))
+#                         money=money-info[selct].get('price')
+#                         print(buy_car)
+#                     else:
+#                         print('钱不够')
+#                         break
+#                 elif selct==1:
+#                     if money>info[selct].get('price'):
+#                         buy_car.append(info[selct].get('name'))
+#                         money = money - info[selct].get('price')
+#                         print(buy_car)
+#                     else:
+#                         print('钱不够')
+#                         break
+#                 elif selct==2:
+#                     if money>info[selct].get('price'):
+#                         buy_car.append(info[selct].get('name'))
+#                         money = money - info[selct].get('price')
+#                         print(buy_car)
+#                     else:
+#                         print('钱不够')
+#                         break
+#             elif str(selct).upper()=='Q':
+#                 flag=False
+#             else:
+#                 print("输入有误")
 
-info=[{'name':'香蕉','price':20},
-      {'name':'桃子','price':30},
-      {'name':'蓝莓','price':30}
-      ]
-print('*******欢迎光临水果店******')
-money=(input('请问你有多少money'))
-flag=True
-buy_car=[]
-while flag:
-    if str(money).isdigit() and int(money)>0:
-            for k,v in enumerate(info):
-                print('序号{},品种{},价格{}'.format(k,v.get('name'),v.get('price')))
-            selct=input('请输入序列号')
-            money=int(money)
-            if selct.isdigit() and int(selct)<len(info):
-                selct=int(selct)
-                if selct==0:
-                    if money>int(info[selct].get('price')):
-                        buy_car.append(info[selct].get('name'))
-                        money=money-info[selct].get('price')
-                        print(buy_car)
-                    else:
-                        print('钱不够')
-                        break
-                elif selct==1:
-                    if money>info[selct].get('price'):
-                        buy_car.append(info[selct].get('name'))
-                        money = money - info[selct].get('price')
-                        print(buy_car)
-                    else:
-                        print('钱不够')
-                        break
-                elif selct==2:
-                    if money>info[selct].get('price'):
-                        buy_car.append(info[selct].get('name'))
-                        money = money - info[selct].get('price')
-                        print(buy_car)
-                    else:
-                        print('钱不够')
-                        break
-            elif str(selct).upper()=='Q':
-                flag=False
-            else:
-                print("输入有误")
+#
+# info=[{'name':'香蕉','price':20},
+#       {'name':'桃子','price':30},
+#       {'name':'蓝莓','price':30}
+#       ]
+# print('*******欢迎光临水果店******')
+# money=(input('请问你有多少money'))
+# buy_car={}
+# while True:
+#       for k,v in enumerate(info):
+#           print('序列号{}，商品名称{}，价格{}'.format(k,v.get('name'),v.get('price')))
+#       selct=input('请填写序列号退出请填写q')
+##注意selct是字符串 即使下边代码转成int 只要没有重新赋值 就还是字符串 因为字符串是不可更改数据类型
+## 因此可以直接写成 if str(selct).isdigit() and int(selct)<len(info):
+##                        selct=int(selct)减少下边的代码量和转换次数 提高效率
+#       if selct.isdigit() and int(selct)<len(info):
+#           num=input("请输入数量")
+#           if num.isdigit():
+#               if int(money)>int(info[int(selct)]['price'])*int(num):
+#                   print('num>>>',type(num))
+#                   if info[int(selct)].get('name') in buy_car:
+#                       money=int(money)-info[int(selct)]['price']*int(num)
+#                       buy_car['price']=int(num)+int(buy_car['name'])
+#                       print('购物车中有\t{},\n数\t{},\n剩余money\t{}'.format(buy_car['name'],buy_car['price'],money))
+#
+#                   else:
+#                       money = int(money) - int(info[int(selct)]['price']) * int(num)
+#                       buy_car['name'] = info[int(selct)].get('name')
+#                       buy_car['price']=int(num)
+#                       print('购物车中有\t{},\n数量\t{},\n剩余money\t{}'.format(buy_car['name'],buy_car['price'],money))
+#               else:
+#                   print("钱不够")
+#                   break
+#
+#           else:
+#               print("数量输入有误")
+#
+#       elif str(selct).upper()=='Q':
+#            break
+#       else:
+#           print("序列号输入有误")
+
+
+
+s='12345'
+print(type(s))
+d=int(s)
+print(type(s))
+print(type(d))
+print(id(s),id(int(s)),id(d))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
