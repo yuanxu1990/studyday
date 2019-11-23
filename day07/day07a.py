@@ -65,5 +65,5 @@
 
 
 #将集合变成不可变 数据类型
-s=frozenset('yuanx')
-print(s,type(s))
+# s=frozenset('yuanx')
+# print(s,type(s))
