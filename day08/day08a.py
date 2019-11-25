@@ -58,7 +58,7 @@ open 函数只能打开纯文本文件
 # 5 readline读一行  readlines每一行当成列表中的一个元素添加到列表全部读完
 # 6  truncate( )   参数指定截取位置 对源文件操作
 # 7 with open 和 open区别  with open 不需要写close 但是open需要
-s=open('testopen','r',encoding='utf-8')
+# s=open('testopen','r',encoding='utf-8')
 # if s.readable()==False:
 #     print(s.read(3))
 #     #s.seek(3)
@@ -66,11 +66,46 @@ s=open('testopen','r',encoding='utf-8')
 #     print(s.read())
 # else:
 #     print('readable test')
-# s.truncate(2)
+# # s.truncate(2)
 # for line in s:
 #     print(line)
 # s.close()
 
 
 #先注册 在登录
+
+add_name=input("pelase username")
+add_pwd=input('pelase pwd')
+if add_name.isalnum() and add_pwd.isdigit():
+    with open('testopen','r+',encoding='utf-8') as f:
+        print(f.read())
+        f.write(add_name+"\t"+'*')
+        f.write(add_pwd+'\n')
+        f.seek(0)
+        print(f.read())
+else:
+    print('你注册信息有误')
+
+count=0
+while count<3:
+    username=input('username')
+    pwd=input('pwd')
+    with open('testopen','r',encoding='utf-8') as e:
+        #print(e.readlines())
+        for line in e.readlines():
+             print(type(line))
+             if username in line:
+                 lineinfo=line.split("*")
+                 if pwd==lineinfo[1].strip():
+                     print(lineinfo[1])
+                     print('login sucess')
+                     break
+                 else:
+                     print('请检查你输入的用户名和密码 你有三次输入机会')
+             else:
+                 pass
+    count+=1
+
+
+
 

@@ -54,10 +54,10 @@
 
 #子集和超集
 
-# set9={1,2,3}
-# set0={1,2,3,4,5,6}
-# print(set9<set0)
-# print(set9.issubset(set0)) # 这两个相同，都是说明set1是set2子集
+set9={1,2,3}
+set0={1,2,3,4,5,6}
+print(set9<set0)
+print(set9.issubset(set0)) # 这两个相同，都是说明set1是set2子集
 #
 # print(set0>set9)
 # print(set0.issuperset(set9))#这两个相同，就是说明set0是set9的超集

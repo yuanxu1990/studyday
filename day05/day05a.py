@@ -167,5 +167,22 @@
 # print(info3)
 
 
-t=31.522
-print(type(t))
+# dicr={'name':['nihao','dandan'],
+#      'py9':[{'num':78,'avg_age':18,}],
+#      'addr':333}
+# for k,v in enumerate(dicr):
+#     print(k,v)
+#
+# ss='abcdef'
+# for s1,s2 in enumerate(ss):
+#     print(s1,s2)
+#
+# sets={'ni','mei'}
+# for set1,set2 in enumerate(sets):
+#     print(set1,set2)
+#
+# tuples=(1,2,"nihao")
+# for t1,t2 in enumerate(tuples):
+#     print(t1,t2)
+
+
