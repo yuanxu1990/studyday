@@ -234,7 +234,11 @@ set 集合 无序 不可重复 可修改
    1 open 和with open区别
       open需要手动关闭文件对象(f.close()) with open不需要
    2 只能操作纯文本文件 word excel不是纯文本，除了字体外还有颜色等一些规则
-   3 readlines（）执行后自动关闭文件
+   3  read 一次性读完形成字符串   
+      readlines（）执行后自动关闭文件
+      readline  默认读一行 读完之后光标默认在这一行的最后
+      最好使用循环 for 或则 while
+
 '''
 # 读取 r以字符串读取 rb以二进制读取 r+先读后写
 # 读取之后 光标处于文件的最后 在执行read 什么也读不到 必须要seek移动光标位置
@@ -250,10 +254,21 @@ set 集合 无序 不可重复 可修改
 #     f1.seek(5)
 #     print(f1.read())
 #     print(f1.tell())
-
+#
 # with open('testopen','r',encoding='utf-8')as f2:
-#     print(f2.readline())
-#     print(f2.readlines()[0].replace('\t',"^").replace('\n',"%"))
+#     while True:
+#         f3 = f2.readline()
+#         if f3:
+#             print(type(f3),f3)
+#         else:
+#             break
+
+
+    # for a in f2:
+    #     print(type(a),a)
+
+
+    #print(f2.readlines()[0].replace('\t',"^").replace('\n',"%"))
 # with open('testopen','rb')as f3:
 #     print(f3.readline())
 #     print(f3.readlines())
@@ -352,6 +367,21 @@ set 集合 无序 不可重复 可修改
 #     print(f6aa.tell())
 #     f6aa.seek(0)
 #     print(f6aa.read())
+
+#修改文件
+# python不能直接处理文件只能通过os（windows linux）去操作文件
+with open('testopen',encoding='utf-8')as f,open('testopen.bak','w',encoding='utf-8')as f2:
+    for line in f:
+        if '儿子' in line:
+            #这里替换是在python程序中内存中 并不能直接更改文件
+            line=line.replace('儿子','臭宝宝')
+            print(line)
+        f2.write(line)
+import os
+os.remove('testopen')
+os.rename('testopen.bak','testopen')
+
+
 
 
 
