@@ -207,4 +207,114 @@
                 默认参数（关键字参数）  可以不传
                 **kwargs   可以接受任意多个关键字参数
         实参    按照位置传参 按照关键字传参
+        
 '''
+
+
+
+# def func_06(*args):
+# #     n=0
+# #     for i in args:
+# #         n=n+i
+# #         print(n)
+# #     return n
+# #
+# # print(func_06(1,2,3))
+#
+#
+# li=[1,3,2,'a',4,'b',5,'c']
+# print(li[0::2])
+# print(li[1:6:2])
+# lista=['alex','wusir','rain']
+# s=''.join(lista)
+# s2='_'.join(s)
+# lisb=s.split('l')
+# print(s,lisb,s2)
+
+'''
+分别使用while和for循环打印1-2+3-4+5.。。。。+99
+'''
+
+# count=0
+# # j=0
+# # while count<99:
+# #     count+=1
+# #     if count%2==0:
+# #         j=j-count
+# #     else:
+# #         j=count+j
+# #     print(j)
+#
+# sum=0
+# for i in range(1,100):
+#     if i%2==0:
+#         sum=sum-i
+#     else:
+#         sum=sum+i
+#     print(sum)
+
+# for i in range(100,-1,-1):
+# #     print(i)
+
+# counts=0
+# elenment=input('>>>>>')
+# for i in elenment[1::2]:
+#     if i.isdigit():
+#         counts+=1
+#     else:
+#         print('0000')
+# print(counts)
+
+'''
+补充代码（从已有的代码下面继续写）
+有如下值  li=[11,22,33,44,55,77,77,77,90]
+  将所有大于66的值保存值字典的第一个k中
+  将小于66的值保存在第二个k的值中
+'''
+# li=[11,22,33,44,55,77,88,99,90]
+# result={}
+# for row in li:
+#     if row<66:
+#         if 'k1' not in result:
+#             result['k1']=[row]
+#         else:
+#             result['k1'].append(row)
+#     if row>66:
+#         if 'k2' not in result:
+#             result['k2'] = [row]
+#         else:
+#             result['k2'].append(row)
+#
+# print(result)
+# for row in li:
+#     #注意下边字典定义键值对方法的区别
+#     # result['k1']=[]
+#     # result['k2'] = []
+#     result.setdefault('k2',[])
+#     result.setdefault('k1',[])
+#     print(result)
+#     if row<66:
+#         result['k1'].append(row)
+#     else:
+#         result['k2'].append(row)
+#
+# print(result)
+
+user_dict={}
+user_list=[]
+board=['yuan','han','qing']
+while True:
+    username = input('username')
+    if username.upper()=='Q':
+        break
+    pwd = input('pwd')
+    for i in board:
+        if i in username:
+            username=username.replace(i,len(i)*'*')
+            user_dict['username']=username
+            user_dict['pwd'] = pwd
+            user_list.append(user_dict)
+    user_dict['username'] = username
+    user_dict['pwd'] = pwd
+    user_list.append(user_dict)
+    print(user_list)
