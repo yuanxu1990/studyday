@@ -62,15 +62,17 @@
 
 # ###yield from使用方法
 
-# def genertor():
-#     a='qwertyuio'
-#     b='asdfghjk'
-#     for i in a:
-#         yield i
-#     for j in b:
-#         yield j
-#
-# g=genertor()
+def genertor():
+    a='qwertyuio'
+    b='asdfghjk'
+    for i in a:
+        yield i
+    for j in b:
+        yield j
+
+g=genertor()
+g1=list(g)
+print(g1)
 # for i in g:
 #     print(i)
 

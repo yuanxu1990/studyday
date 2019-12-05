@@ -82,19 +82,21 @@
 #缺点： 1取值麻烦，只能以一个取，只能往后取，并且是一次行的 无法使用len获取长度
 lista=[1,2,3,'abc']
 iterators=lista.__iter__()
-
-while True:
-    try:
-        print(iterators.__next__())
-    except StopIteration:
-        break
-print("第二次取值》》》》》》》")
-iterators=lista.__iter__()
-while True:
-    try:
-        print(iterators.__next__())
-    except StopIteration:
-        break
-# print(dir(lista))
+iterators_01=iter(lista)
+print(iterators_01,"\n",iterators)
+print(iterators is iterators_01)
+# while True:
+#     try:
+#         print(iterators.__next__())
+#     except StopIteration:
+#         break
+# print("第二次取值》》》》》》》")
+# iterators=lista.__iter__()
+# while True:
+#     try:
+#         print(iterators.__next__())
+#     except StopIteration:
+#         break
+# # print(dir(lista))
 # print(dir(iterators))
 # print(set(dir(iterators))-set(dir(lista)))
