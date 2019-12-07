@@ -20,18 +20,36 @@
 
 
 #求除斐波那契数列
-def fib_list(max):
-    a=0
-    b=1
-    while max>0:
-        a,b=b,a+b
-        max-=1
-        yield a
-
-list_fibs=[]
-for i in fib_list(40):
-    list_fibs.append(i)
-print(max(list_fibs),len(list_fibs))
+# def fib_list(max):
+#     a=0
+#     b=1
+#     while max>0:
+#         a,b=b,a+b
+#         max-=1
+#         yield a
+#
+#
+# def fib_list01(max):
+#     a=0
+#     b=1
+#     c=0
+#     while max>0:
+#
+#         c=a+b
+#         a=b
+#         b=c
+#         max-=1
+#         yield c
+#
+# list_fibs=[]
+# list_fibs01=[]
+# for i in fib_list(10):
+#     list_fibs.append(i)
+# for i in fib_list01(10):
+#     list_fibs01.append(i)
+# print(max(list_fibs),len(list_fibs))
+# print(list_fibs)
+# print(list_fibs01)
 
 
 # def fib_func01(n):
