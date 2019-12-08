@@ -92,18 +92,19 @@
 
 #[1,4,5,16,25,36,49,64,81,100]
 
-#import math
-# def sqrt_01(x):
-#     # x1=math.sqrt(x)%1
-#     # if x1==0:
-#     #     print(x1)
-#     #     return x
-#     return math.sqrt(x)%1==0
-#
-# # s=sqrt_01(100)
-# # print(s)
-# rs01=filter(sqrt_01,range(1,101))
-# print(list(rs01))
+import math
+def sqrt_01(x):
+    # x1=math.sqrt(x)%1
+    # if x1==0:
+    #     print(x1)
+    #     return x
+    print(math.sqrt(x))
+    return math.sqrt(x)%1==0
+
+# s=sqrt_01(100)
+# print(s)
+rs01=filter(sqrt_01,range(1,101))
+print(list(rs01))
 
 
 

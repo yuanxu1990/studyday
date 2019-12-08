@@ -33,6 +33,10 @@
 # # f=open('print test','w')
 # # print('print test',file=f)
 # # f.close()
+print('123',end='')
+print('456')
+print('')
+print('777')
 #打印进度条 python打印进度条模块progress Bar
 import time
 # for i in range(0,101,2):
@@ -63,14 +67,14 @@ import time
        无理数π
 虚数：不存在的数
 
-'''
-print((complex(19+16j)))
-
-
-#进制转换 返回结果 0b 0o 0x分别代表2 8 16进制
-# print(bin(10))
-# print(oct(10))
-# print(hex(10))
-
-print(sum([1,2,3],10))
-
+# '''
+# print((complex(19+16j)))
+#
+#
+# #进制转换 返回结果 0b 0o 0x分别代表2 8 16进制
+# # print(bin(10))
+# # print(oct(10))
+# # print(hex(10))
+#
+# print(sum([1,2,3],10))
+#
