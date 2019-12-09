@@ -332,11 +332,11 @@ set 集合 无序 不可重复 可修改
 #     print(f4a.read())
 
 
-# with open('testopen', 'wb+')as f5:
-#     print(f5.write('nihao1234566'.encode('utf-8')))
-#     print(f5.tell())
-#     f5.seek(0)
-#     print(f5.read())
+with open('testopen', 'wb+')as f5:
+    print(f5.write('nihao123456677'.encode('utf-8')))
+    print(f5.tell())
+    f5.seek(2)
+    print(f5.read())
 
 
 #在wb+模式下  即使是先读后写  也会先清空文件内容，然后写入，并不像rb+那样覆盖

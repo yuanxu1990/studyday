@@ -13,7 +13,10 @@
 # add01=lambda a,b:a+b
 # print(add01(1,2))
 
-
+'''
+带有key参数的 函数 有 min max map filter sorted经常和lambda配合使用,这些函数实现功能首先会对入参做某些操作，
+    例如sorted(lista,key=len) 一定是先遍历列表lista 在调用len函数计算元素长度
+'''
 #带有key参数的 函数 有 min max map filter sorted经常和lambda配合使用
 #字典排序  max先回判断入参是什么类型 在根据类型采用对应的取值方法判断
 # dic={'k1':10,'k2':100,'k3':30}
@@ -56,11 +59,18 @@
 # # for i in tup_01:
 #     print(i)
 
-def multipliers():
-    return [lambda x:i*x for i in range(4)]
-ret=multipliers()
-print((ret))
-print([m(2) for m in multipliers()])
+# def multipliers(x):
+#
+#     return [lambda x:i*x for i in range(4)]
+# ret=multipliers(2)
+#
+# for i in ret:
+#     r=i(4)
+#     print(r)
+
+print([i for i in range(4)])
+# print((ret))
+# print([m(2) for m in multipliers()])
 #
 #
 #

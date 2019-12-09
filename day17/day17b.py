@@ -92,35 +92,102 @@
 #
 # finds(lista,66)
 
-listb=[2,3,4,5,6,55,66,77,88,99,100]
-def finds_01(l,aim,start=0,end=None):
-    #如果这里end写成len（l）则下边递归函数再次调用的时候
-    #等于给end赋值还是原长度，那么下边递归函数传值的end
-    #就没有用处 在第一次调用的时候 已经肯定了end的值就是
-    #列表的长度
-    end=len(l) if end is None else end
-    mid_index=(end-start)//2+start
-    if start<=end:
-        if l[mid_index]<aim:
-            res1=finds_01(l,aim,start=mid_index+1,end=end)
-            return res1
-        elif l[mid_index]>aim:
-            res2=finds_01(l,aim,start=start,end=mid_index)
-            return res2
-        else:
-            print('找到了',mid_index,l[mid_index])
-            return mid_index
-    else:
-        print('找不到这个值')
-        return '找不到这个值1q'
-
-
-
-s=finds_01(listb,66)
-print(s)
+# listb=[2,3,4,5,6,55,66,77,88,99,100]
+# def finds_01(l,aim,start=0,end=None):
+#     #如果这里end写成len（l）则下边递归函数再次调用的时候
+#     #等于给end赋值还是原长度，那么下边递归函数传值的end
+#     #就没有用处 在第一次调用的时候 已经肯定了end的值就是
+#     #列表的长度
+#     end=len(l) if end is None else end
+#     print('end',end,'start',start)
+#     mid_index=(end-start)//2+start
+#     if start<=end:
+#         if l[mid_index]<aim:
+#             res1=finds_01(l,aim,start=mid_index+1,end=end)
+#             # 需要将结果return 返回给上层函数
+#             return res1
+#         elif l[mid_index]>aim:
+#             res2=finds_01(l,aim,start=start,end=mid_index)
+#             return res2
+#         else:
+#             print('找到了',mid_index,l[mid_index])
+#             return mid_index
+#     else:
+#         print('找不到这个值')
+#         return '找不到这个值1q'
+#
+#
+#
+# s=finds_01(listb,66)
+# print(s)
 
 '''
 斐波那契数列  第n个斐波那契shu是多少
 阶乘  3!=3*2*1
 '''
+#斐波那契数列
 
+# def fab_list(n):
+#     lista=[0,1]
+#     if n<2:
+#         return lista[n]
+#     elif n>=2:
+#         return (fab_list(n-2)+fab_list(n-1))
+#
+# print(fab_list(3))
+
+# def fab_list01(x):
+#     a=0
+#     b=1
+#     while x>0:
+#         a,b=b,a+b
+#         x-=1
+#     return a
+#
+# print(fab_list01(4))
+
+#实现阶乘
+
+def facrotial(x):
+    if x<2:
+        return 1
+    elif x>=2:
+        return facrotial(x-1)*x
+
+facrotial(4)
+
+
+'''
+def facrotial(4):
+    if x<2:
+        return 1
+    elif x>=2:
+        return facrotial(4-1)*4
+        
+        
+def facrotial(3):
+    if x<2:
+        return 1
+    elif x>=2:
+        return facrotial(3-1)*3
+
+def facrotial(2):
+    if x<2:
+        return 1
+    elif x>=2:
+        return facrotial(2-1)*2
+        
+def facrotial(1):
+    if x<2:
+        return 1
+    elif x>=2:
+        return facrotial(x-1)*x
+
+'''
+
+
+def fac_01(n):
+    ret=1
+    for i in range(1,n+1):
+        ret=ret*i
+    return ret
