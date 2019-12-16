@@ -45,8 +45,8 @@ import time
 
 # asctime(结构化时间) 如果不传入参数 直接返回当前时间的格式化串
 # ctime（时间戳） 如果不传参数，直接返回当前时间的格式化串
-# print(time.asctime(time.localtime()))
-# print(time.ctime())
+print(time.asctime(time.localtime()))
+print(time.ctime())
 
 
 '''
@@ -72,6 +72,6 @@ import random
 
 
 #打乱列表顺序
-item=[1,2,5,7,9]
-random.shuffle(item)
-print(item)
+# item=[1,2,5,7,9]
+# random.shuffle(item)
+# print(item)

@@ -137,10 +137,14 @@ import shelve
 # f1.close()
 
 #shelve.open(filename,writeback=True  )
-f2=shelve.open('shelev_file04',writeback=True)
-f2['k1']={'value':123,'new_value':'one'}
-print(f2['k1'])
-f2['k1']['new_value']='first'
-print(f2['k1'])
-f2.close()
+# f2=shelve.open('shelev_file04',writeback=True)
+# f2['k1']={'value':123,'new_value':'one'}
+# print(f2['k1'])
+# f2['k1']['new_value']='first'
+# print(f2['k1'])
+# f2.close()
+import sys
+print('day20a1 path',sys.path)
+def day20a1():
+    print(r'test day21\day21a\glance\api\policy import ')
 

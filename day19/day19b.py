@@ -50,7 +50,7 @@ from collections import namedtuple,deque,OrderedDict,defaultdict,Counter
 #deque  使用list存储数据的时，按索引访问元素很快，
 #       但是插入和删除元素就很慢了，因为list是线性存储，
 #       数据量大的时候，插入和删除效率就很低
-#deque  是为了搞笑实现插入和删除操作的双向列表，适合与队列和栈
+#deque  是为了高效实现插入和删除操作的双向列表，适合与队列和栈
 # import queue
 # q=queue.Queue()
 # q.put(5)
@@ -84,22 +84,24 @@ from collections import namedtuple,deque,OrderedDict,defaultdict,Counter
 
 
 #defaultdict
-# values=[11,22,33,44,66,77,88]
-# my_dict=defaultdict(list)  #参数内必须是可调用的数据类型 可传入 list set等
-# my_dict01=defaultdict(lambda :5)
-# for value in values:
-#     if value>66:
-#         my_dict['k1'].append(value)
-#     else:
-#         my_dict['k2'].append(value)
-# print(my_dict,my_dict01)
+values=[11,22,33,44,66,77,88]
+my_dict=defaultdict(list)  #参数内必须是可调用的数据类型 可传入 list set等
+my_dict01=defaultdict(lambda :5)
+for value in values:
+    if value>66:
+        my_dict['k1'].append(value)
+    else:
+        my_dict['k2'].append(value)
+print(my_dict,my_dict01)
+
+
 
 
 
 #Counter类 的目的是用来跟踪值出现的次数，它是一个无序的容器类型，以字典的键值对形式存储，其中元素做为key
-#其技术作为value，计数值可以是任意的interger（包括0和负数）。counter和其他语言的bags或multisets很相似
+#其计数作为value，计数值可以是任意的interger（包括0和负数）。counter和其他语言的bags或multisets很相似
 
-c=Counter('asdfvfkldjklfjl')
-print(c)
-print(c.get('a'))
-print(c['f'])
+# c=Counter('asdfvfkldjklfjl')
+# print(c)
+# print(c.get('a'))
+# print(c['f'])
