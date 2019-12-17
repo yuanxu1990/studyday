@@ -18,23 +18,23 @@
 '''
 
 
-try:
-    #[][4]
-    ret=int(input("number>>>"))
-    print(ret*'*')
-except ValueError:
-    print('value error')
-except IndexError:
-    print('index error')
-else:
-    print('没有异常')
-finally:
-    print('不管代码是否异常都会执行')
-
-try:
-    {}['k']
-    '3'+4
-except KeyError:
-    print('value error')
-except Exception as e:
-    print('异常测试',e)
+# try:
+#     #[][4]
+#     ret=int(input("number>>>"))
+#     print(ret*'*')
+# except ValueError:
+#     print('value error')
+# except IndexError:
+#     print('index error')
+# else:
+#     print('没有异常')
+# finally:
+#     print('不管代码是否异常都会执行')
+#
+# try:
+#     {}['k']
+#     '3'+4
+# except KeyError:
+#     print('value error')
+# except Exception as e:
+#     print('异常测试',e)
