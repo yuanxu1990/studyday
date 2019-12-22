@@ -5,9 +5,10 @@
 所的模块导入，都是基于homework
 '''
 
-import os
-import sys
-#print(os.getcwd())
-print(os.chdir('..'))
-print(os.getcwd())
-print(sys.path)
+# import os
+# import sys
+# #print(os.getcwd())
+# print(os.chdir('..'))
+# print(os.getcwd())
+# print(sys.path)
+
