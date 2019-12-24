@@ -14,7 +14,7 @@ class course:
 
 
 
-class teatche:
+class Teatcher:
     def __init__(self,name,clas,course):
         self.name=name
         self.clas=['class obj']
