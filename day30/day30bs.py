@@ -23,10 +23,10 @@ import socket
 sk=socket.socket()             #买手机 创建socket对象
 sk.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)#避免服务重启的时候报address already in use
 sk.bind(('127.0.0.1',10001))   #绑定手机卡
-sk.listen()                    #监听 等着有人给我打电话
-conn,addr=sk.accept()          #参数conn 链接     addr客户端地址
+sk.listen()                    #监听 等着有人给我打电话  py3.4    listen（int）  限制链接人数
+conn,addr=sk.accept()          #参数conn 链接     addr客户端地址  阻塞  获取一个客户端的链接，已经完成三次握手建立一个链接
 while 1:
-    ret=conn.recv(1024)            #接收   听别人说话 1024倍数
+    ret=conn.recv(1024)            #接收   听别人说话 1024倍数  阻塞，等收到一个客户端发来的消息
     print(ret)
     conn.send(b'hello')            #发送   给别人说话   参数必须传bytes
 conn.close()                   #关闭链接  挂电话
