@@ -1,6 +1,8 @@
 '''
 进程锁
 
+牺牲了效率 但是保证了数据的安全
+
 
 
 '''
@@ -36,3 +38,15 @@ if __name__ == '__main__':
     for a in range(10):
         p2=Process(target=buy_ticket,args=(a,locks))
         p2.start()
+
+'''
+首先生成锁的对象
+locks=Lock()
+当成参数传入所有执行的函数内 
+p2=Process(target=buy_ticket,args=(a,locks))
+拿钥匙
+locks.acquire()
+还钥匙
+locks.release()
+
+'''
