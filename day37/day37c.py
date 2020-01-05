@@ -38,6 +38,13 @@ set 和 clear
 import time,random
 from multiprocessing import Process,Event
 def car(e,i):
+    '''
+    通过判断事件的状态，来决定是否阻塞
+
+    :param e:事件对象
+    :param i: 循环变量
+    :return:
+    '''
     if not e.is_set():
         print('car%s在等待'%i)
         e.wait()
@@ -45,6 +52,12 @@ def car(e,i):
 
 
 def light(e):
+    '''
+    通过判断事件的真假
+    来更改事件的状态
+    :param e: 事件对象
+    :return:
+    '''
     while True:
         if e.is_set():
             time.sleep(2)
