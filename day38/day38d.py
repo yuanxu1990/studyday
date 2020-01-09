@@ -56,10 +56,14 @@ def func(n):
     # for i in range(10):
     #     print(n+1)
     print(n)
+def func1(m):
+    print(m[0])
+    print(m[1])
 
 if __name__ == '__main__':
     # 创建线程池指定线程有5个
-    start_time=time.time()
+    # start_time=time.time()
+    #  Pool()若不指定参数 则默认本机所有的cpu数量os.cpu_count()
     poo=Pool(5)
     #poo.map(func,{'num':10,'age':18})
     #poo.map(func,[0,1,3,4,5])
@@ -67,15 +71,16 @@ if __name__ == '__main__':
     #每次只能同时启动5个进程但是进程并没有
     #map自带join
     #只使用5个进程 执行函数 直到可迭代对象中值被函数执行完毕
-    poo.map(func,range(100))
-    end=time.time()-start_time
-    start_time1=time.time()
-    p_lis=[]
-    for i in range(100):
-        p=Process(target=func,args=(i,))
-        p.start()
-        p_lis.append(p)
-    [a.join() for a in p_lis]
-    end1=time.time()-start_time1
-    print(end,end1)
-    print(end1/end)
+    # poo.map(func,range(100))
+    poo.map(func1,[('yuan',18),])
+    # end=time.time()-start_time
+    # start_time1=time.time()
+    # p_lis=[]
+    # for i in range(100):
+    #     p=Process(target=func,args=(i,))
+    #     p.start()
+    #     p_lis.append(p)
+    # [a.join() for a in p_lis]
+    # end1=time.time()-start_time1
+    # print(end,end1)
+    # print(end1/end)
