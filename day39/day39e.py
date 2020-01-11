@@ -65,12 +65,53 @@
      如果设定一个线程为守护线程，就表示这个线程是不重要的，在进程退出的时候，不用等待这个线程退出。
 '''
 from threading import Thread
-import time
+import time,os
 
-def func(n):
-    time.sleep(1)
-    print(n)
+#第一种启动多线程方法
+# def func(n):
+#     time.sleep(1)
+#     print(n)
+# #if __name__ == '__main__':
+#
+# for i in range(10):
+#     t=Thread(target=func,args=(i,))
+#     t.start()
 
+#第二种启动多线程方法
+
+# class mythread(Thread):
+#     def __init__(self,arg):
+#         super().__init__()
+#         self.arg=arg
+#     def run(self):
+#         time.sleep(1)
+#         print(self.arg)
+#
+# t=mythread(10)
+# t.start()
+
+
+#多线程并发
+
+# def func(a,b):
+#     n=a+b
+#     print(n,os.getpid())
+# print('主线程',os.getpid())
+# for i in range(10):
+#     t=Thread(target=func,args=(i,5))
+#     t.start()
+
+#内存数据的共享问题
+
+def func(a,b):
+    global g
+    g=0
+    print(g,os.getpid())
+g=100
+t_lis=[]
 for i in range(10):
-    t=Thread(target=func,args=(i,))
+    t=Thread(target=func,args=(i,5))
     t.start()
+    t_lis.append(t)
+[a.join() for a in t_lis]
+print(g)
