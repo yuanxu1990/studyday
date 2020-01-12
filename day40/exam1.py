@@ -17,10 +17,9 @@ for item in list3:
             dic['hobby_list'].append(item['hobby'])
             break
         else:
-            if count==1:
-                break
+            if dic['name']=='alex' and count==1:
+                continue
             list4.append({'name':item['name'],'hobby_list':[]})
             count+=1
-
 print(list4)
 
