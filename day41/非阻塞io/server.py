@@ -41,8 +41,8 @@ while True:
         print('建立链接',addr)
         # 要将链接存入列表，这是因为client有网络延迟
         # 本机执行代码速度远远快过网络延迟，如果recv放在这里回报错
-        # 且恰好这是再有人链接server，conn会被内存冲掉，就找不到当时和
-        # servr链接的通道
+        # 且恰好这是再有人链接server，conn会e被内存冲掉，就找不到当时和
+        # server链接的通道
         con_lista.append(conn)
     except BlockingIOError:
             for a in con_lista:

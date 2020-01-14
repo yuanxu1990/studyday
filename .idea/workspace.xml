@@ -14,7 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f0e0028-5a6f-4614-8c03-e3267ca1c0e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day41/非阻塞io/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/day41/非阻塞io/server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day41/非阻塞io/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+            <state relative-caret-position="360">
+              <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -115,9 +115,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1020" />
-    <option name="y" value="3" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="900" />
     <option name="width" value="1023" />
     <option name="height" value="1040" />
   </component>
@@ -388,23 +387,23 @@
       <workItem from="1578850553317" duration="192000" />
       <workItem from="1578885942548" duration="11526000" />
       <workItem from="1578967539380" duration="15773000" />
-      <workItem from="1579006959465" duration="9614000" />
+      <workItem from="1579006959465" duration="10564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="980485000" />
+    <option name="totallyTimeSpent" value="981435000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="892" y="0" width="1023" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992658" visible="true" weight="0.17030114" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992658" visible="true" weight="0.08742005" />
       <window_info id="Structure" order="1" sideWeight="0.5007342" side_tool="true" weight="0.09594883" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49844238" visible="true" weight="0.37596473" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49844238" weight="0.36944744" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4994985" weight="0.40411702" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1006,8 +1005,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day41/非阻塞io/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        <state relative-caret-position="360">
+          <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
         </state>
       </provider>
     </entry>
