@@ -25,7 +25,7 @@ import socket
 
 sk=socket.socket()
 sk.bind(('127.0.0.1',10066))
-#设置为非阻塞 默认是阻塞
+#设置为非阻塞 默认是阻塞 把socket当中需要阻塞的方法都改变成非阻塞 recv recvfrom accpet
 sk.setblocking(False)
 sk.listen()
 # 如果没有收到链接就一直阻塞，让出了cpu控制权
@@ -63,7 +63,22 @@ while True:
                     pass
             #等待循环结束之后 由于del_lista已经储存了将要删除的链接，则就可以循环删除
             for conn in del_lista:
+                conn.close()
                 con_lista.remove(conn)
             #同时清空del_lista列表中的元素
             del_lista.clear()
 
+'''
+非阻塞io一般不推荐
+优点 ：
+     能够在等待任务完成的时间里干其他活 （包括提交其他任务，也就是后台 可以有多个任务在同时执行）
+
+缺点：
+    1 循环调用recv（）将大幅推高cpu占用率，这也是我们在代码中留一句time.sleep()的原因，否则在低配主机下极容易出现卡机情况
+    2 任务完成的响应延迟增大了，因为每过一段时间才去轮训一次read操作，而任务可能在两次轮询之间的任意时间完成，这回导致整体
+    数据吞吐量的降低
+
+此外 在这个方案占用recv（）更多的是起到检测 操作是否完成  的作用，实际操作系统提供了更为高效的检测 操作是否完成 作用的接口
+例如select（）多路复用模式，可以一次检测多个链接是否活跃
+
+'''
