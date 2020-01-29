@@ -18,45 +18,45 @@
 '''
 
 #类的私有属性  只是在代码层面不允许用 对象.属性的方式调用
-# class userinfo:
-#     __key=123  #私有的静态属性
-#     def __init__(self,name,pwd):
-#         self.name=name
-#         self.__pwd=pwd   #私有属性
-#     def get_pwd(self):
-#         # 只要在类的内部使用私有属性，就会自动带上  _类名
-#         # 注意如果此时在类的外部调用pwd 需要用 _userinfo__pwd
-#         # 这一点可以通过在外部定义一个 带下划线的方法来实验例如  yuan._pwd1
-#         # 这样在外部依然可以用 yuan._pwd1来调用该方法
-#         print('get_pwd--》',self.__dict__)
-#         return self.__pwd
-#
-#     def __user_name(self):
-#         #私有的方法  只在内部使用 外部没办法感知
-#         print(self.__dict__)
-#         print('__user_name')
-#     def use(self):
-#         print('use',self.__dict__)
-#         self.__user_name()
-# yuan=userinfo('dandan',123456)
-# print(yuan.name)
-#
-# #print(yuan.__pwd)
-# print(yuan.__dict__)
-# print(yuan._userinfo__pwd)    #_类名__属性
-# yuan._weight=100
-# print(yuan._weight)
-# print(yuan.use())
+class userinfo:
+    __key=123  #私有的静态属性
+    def __init__(self,name,pwd):
+        self.name=name
+        self.__pwd=pwd   #私有属性
+    def get_pwd(self):
+        # 只要在类的内部使用私有属性，就会自动带上  _类名
+        # 注意如果此时在类的外部调用pwd 需要用 _userinfo__pwd
+        # 这一点可以通过在外部定义一个 带下划线的方法来实验例如  yuan._pwd1
+        # 这样在外部依然可以用 yuan._pwd1来调用该方法
+        print('get_pwd--》',self.__dict__)
+        return self.__pwd
+
+    def __user_name(self):
+        #私有的方法  只在内部使用 外部没办法感知
+        print(self.__dict__)
+        print('__user_name')
+    def use(self):
+        print('use',self.__dict__)
+        self.__user_name()
+yuan=userinfo('dandan',123456)
+print(yuan.name)
+
+#print(yuan.__pwd)
+print(yuan.__dict__)
+print(yuan._userinfo__pwd)    #_类名__属性
+yuan._weight=100
+print(yuan._weight)
+print(yuan.use())
 
 
 #假设父类的私有属性，能被子类调用？？
-class foo:
-    __y='212'
-class son(foo):
-    #print(foo.__key)
-     pass
-#弱项调用必须在外部调用需要以下列方式
-# print(son._foo__y)
+# class foo:
+#     __y='212'
+# class son(foo):
+#     #print(foo.__key)
+#      pass
+# #弱项调用必须在外部调用需要以下列方式
+# # print(son._foo__y)
 
 
 '''

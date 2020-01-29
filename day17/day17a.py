@@ -32,6 +32,8 @@
 #
 # ret=filter_num(2)
 # print(list(ret))
+
+
 # with open('examtest',encoding='utf-8')as f1:
 #     l=f1.readlines()
 # page_num=input('页码')
@@ -51,16 +53,16 @@
 
 
 # 4 如下 每个小字典的name对应股票名字 shares对应多少股 price对应价格
-portfolio=[{'name':'IBM','shares':100,'price':91.1},
-           {'name':'AAPL','shares':50,'price':543.22},
-           {'name':'FB','shares':200,'price':21.09},
-           {'name':'HPQ','shares':35,'price':31.75},
-           {'name':'YHOO','shares':45,'price':16.35},
-           {'name':'ACME','shares':75,'price':115.65}]
-# 4.1 计算购买每只股票的的总价
-ret=map(lambda dic:{dic['name']:dic['shares']*dic['price']},portfolio)
-print(list(ret))
-
-#4.2 用filter过滤出 单价大于100的股票有那些
-ret0=filter(lambda dict:dict['price']>100,portfolio)
-print(list(ret0))
+# portfolio=[{'name':'IBM','shares':100,'price':91.1},
+#            {'name':'AAPL','shares':50,'price':543.22},
+#            {'name':'FB','shares':200,'price':21.09},
+#            {'name':'HPQ','shares':35,'price':31.75},
+#            {'name':'YHOO','shares':45,'price':16.35},
+#            {'name':'ACME','shares':75,'price':115.65}]
+# # 4.1 计算购买每只股票的的总价
+# ret=map(lambda dic:{dic['name']:dic['shares']*dic['price']},portfolio)
+# print(list(ret))
+#
+# #4.2 用filter过滤出 单价大于100的股票有那些
+# ret0=filter(lambda dict:dict['price']>100,portfolio)
+# print(list(ret0))

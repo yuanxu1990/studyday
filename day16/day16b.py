@@ -21,7 +21,7 @@
 #字典排序  max先回判断入参是什么类型 在根据类型采用对应的取值方法判断
 # dic={'k1':10,'k2':100,'k3':30}
 # print(max(dic,key=lambda k:dic[k]))
-# lista=[1,2,3,4]
+# lista=[4,2,3,1]
 # print(max(lista,key=lambda x:lista[x-1]))
 #
 # listb=[3,2,100,888,999,213,1111]
@@ -60,24 +60,24 @@
 #     print(i)
 
 # def multipliers(x):
-#
 #     return [lambda x:i*x for i in range(4)]
 # ret=multipliers(2)
-#
+# print((ret))
+# #
 # for i in ret:
 #     r=i(4)
 #     print(r)
 
-print([i for i in range(4)])
+#print([i for i in range(4)])
 # print((ret))
 # print([m(2) for m in multipliers()])
 #
 #
 #
-# def multipliers():
-#     return (lambda x:i*x for i in range(4))
-# ret=multipliers()
-# print(ret)
-# print([m(2) for m in multipliers()])
+def multipliers():
+    return (lambda x:i*x for i in range(4))
+ret=multipliers()
+print(ret)
+print([m(4) for m in multipliers()])
 
 

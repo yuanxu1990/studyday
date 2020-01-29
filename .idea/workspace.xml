@@ -11,11 +11,18 @@
     <bookmark url="file://$PROJECT_DIR$/day32/day32as.py" line="9" />
     <bookmark url="file://$PROJECT_DIR$/day38/day38a.py" line="21" mnemonic="9" />
     <bookmark url="file://$PROJECT_DIR$/day41/day41c.py" line="33" />
+    <bookmark url="file://$PROJECT_DIR$/concurrent_manager/concur.py" line="42" />
+    <bookmark url="file://$PROJECT_DIR$/day60/day60c.py" line="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f0e0028-5a6f-4614-8c03-e3267ca1c0e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/day41/day41f.py" beforeDir="false" afterPath="$PROJECT_DIR$/day41/day41f.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day41/非阻塞io/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/day41/非阻塞io/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/day14a.py" beforeDir="false" afterPath="$PROJECT_DIR$/day14/day14a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day16/day16b.py" beforeDir="false" afterPath="$PROJECT_DIR$/day16/day16b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day17/day17a.py" beforeDir="false" afterPath="$PROJECT_DIR$/day17/day17a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day25/day25d.py" beforeDir="false" afterPath="$PROJECT_DIR$/day25/day25d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day39/day39e.py" beforeDir="false" afterPath="$PROJECT_DIR$/day39/day39e.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day41/day41b.py" beforeDir="false" afterPath="$PROJECT_DIR$/day41/day41b.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,55 +33,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day41/非阻塞io/server.py">
+        <entry file="file://$PROJECT_DIR$/day60/day60a.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2370">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="150">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="22" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day60/day60b.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day41/day41f.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day41/io多路复用/selector_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-              <folding>
-                <element signature="e#91#102#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day41/io多路复用/io_multiplexingserver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding>
-                <element signature="e#182#195#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day41/io多路复用/io_multiplexingclient.py">
+        <entry file="file://$PROJECT_DIR$/day60/day60c.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+              <caret line="137" column="38" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -95,22 +75,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day38/day38e.py" />
-        <option value="$PROJECT_DIR$/day38/day38f.py" />
-        <option value="$PROJECT_DIR$/day38/day38j_clenit.py" />
-        <option value="$PROJECT_DIR$/day38/day38j_server.py" />
-        <option value="$PROJECT_DIR$/day38/day38l.py" />
-        <option value="$PROJECT_DIR$/day38/day38k.py" />
-        <option value="$PROJECT_DIR$/day39/day39a.py" />
-        <option value="$PROJECT_DIR$/day39/day39b.py" />
-        <option value="$PROJECT_DIR$/day39/day39c.py" />
-        <option value="$PROJECT_DIR$/day39/39d.py" />
-        <option value="$PROJECT_DIR$/day39/refinall.py" />
-        <option value="$PROJECT_DIR$/day39/ss" />
-        <option value="$PROJECT_DIR$/day39/diger.py" />
         <option value="$PROJECT_DIR$/day39/day39d.py" />
         <option value="$PROJECT_DIR$/day39/locust1.py" />
-        <option value="$PROJECT_DIR$/day39/day39e.py" />
         <option value="$PROJECT_DIR$/day39/day39f.py" />
         <option value="$PROJECT_DIR$/day39/day39jclient.py" />
         <option value="$PROJECT_DIR$/day39/dayjserver.py" />
@@ -131,7 +97,6 @@
         <option value="$PROJECT_DIR$/day40/exam1.py" />
         <option value="$PROJECT_DIR$/day41/adds.py" />
         <option value="$PROJECT_DIR$/day41/day41a.py" />
-        <option value="$PROJECT_DIR$/day41/day41b.py" />
         <option value="$PROJECT_DIR$/day41/day41c.py" />
         <option value="$PROJECT_DIR$/day41/day41d.py" />
         <option value="$PROJECT_DIR$/day41/ddd.py" />
@@ -146,13 +111,28 @@
         <option value="$PROJECT_DIR$/day41/io多路复用/io_multiplexingserver.py" />
         <option value="$PROJECT_DIR$/day41/io多路复用/selector_demo.py" />
         <option value="$PROJECT_DIR$/day41/day41f.py" />
+        <option value="$PROJECT_DIR$/concurrent_manager/concur.py" />
+        <option value="$PROJECT_DIR$/day39/day39e.py" />
+        <option value="$PROJECT_DIR$/day41/day41b.py" />
+        <option value="$PROJECT_DIR$/day25/day25c.py" />
+        <option value="$PROJECT_DIR$/day25/day25d.py" />
+        <option value="$PROJECT_DIR$/day12/day12a.py" />
+        <option value="$PROJECT_DIR$/day14/day14a.py" />
+        <option value="$PROJECT_DIR$/day16/day16b.py" />
+        <option value="$PROJECT_DIR$/day17/day17a.py" />
+        <option value="$PROJECT_DIR$/concurrent_manager/mysql" />
+        <option value="$PROJECT_DIR$/concurrent_manager/addsa.py" />
+        <option value="$PROJECT_DIR$/concurrent_manager/addsaaa.py" />
+        <option value="$PROJECT_DIR$/day60/day60a.py" />
+        <option value="$PROJECT_DIR$/day60/day60b.py" />
+        <option value="$PROJECT_DIR$/day60/day60c.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="916" />
-    <option name="width" value="1023" />
-    <option name="height" value="1040" />
+    <option name="x" value="724" />
+    <option name="width" value="1113" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -162,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,42 +153,39 @@
             <path>
               <item name="day" type="b2602c69:ProjectViewProjectNode" />
               <item name="day" type="462c0819:PsiDirectoryNode" />
-              <item name="day41" type="462c0819:PsiDirectoryNode" />
+              <item name="day18" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day" type="b2602c69:ProjectViewProjectNode" />
               <item name="day" type="462c0819:PsiDirectoryNode" />
-              <item name="day41" type="462c0819:PsiDirectoryNode" />
-              <item name="io多路复用" type="462c0819:PsiDirectoryNode" />
+              <item name="day19" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day" type="b2602c69:ProjectViewProjectNode" />
               <item name="day" type="462c0819:PsiDirectoryNode" />
-              <item name="day41" type="462c0819:PsiDirectoryNode" />
-              <item name="非阻塞io" type="462c0819:PsiDirectoryNode" />
+              <item name="day60" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllLocals" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day21" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\day\day40" />
       <recent name="C:\Users\Administrator\PycharmProjects\day\day39" />
       <recent name="C:\Users\Administrator\PycharmProjects\day\day34\ftp_server\core" />
       <recent name="C:\Users\Administrator\PycharmProjects\day\day28" />
       <recent name="C:\Users\Administrator\PycharmProjects\day\day26" />
-      <recent name="C:\Users\Administrator\PycharmProjects\day\day21" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -222,8 +200,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.io_multiplexingclient">
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.day60c">
+    <configuration name="addsa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,12 +209,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day41/非阻塞io" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/concurrent_manager" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day41/非阻塞io/client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/concurrent_manager/addsa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,7 +223,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day41eclient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="addsaaa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,12 +231,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day41" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/concurrent_manager" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day41/day41eclient.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/concurrent_manager/addsaaa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,7 +245,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="io_multiplexingclient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="day60a" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,12 +253,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day41/io多路复用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day60" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day41/io多路复用/io_multiplexingclient.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day60/day60a.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,7 +267,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="io_multiplexingserver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="day60b" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,12 +275,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day41/io多路复用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day60" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day41/io多路复用/io_multiplexingserver.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day60/day60b.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,7 +289,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="day60c" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,12 +297,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day41/非阻塞io" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day60" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day41/非阻塞io/server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day60/day60c.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.io_multiplexingserver" />
-        <item itemvalue="Python.io_multiplexingclient" />
-        <item itemvalue="Python.client" />
-        <item itemvalue="Python.server" />
-        <item itemvalue="Python.day41eclient" />
+        <item itemvalue="Python.day60c" />
+        <item itemvalue="Python.day60b" />
+        <item itemvalue="Python.day60a" />
+        <item itemvalue="Python.addsaaa" />
+        <item itemvalue="Python.addsa" />
       </list>
     </recent_temporary>
   </component>
@@ -429,23 +407,31 @@
       <workItem from="1578967539380" duration="15773000" />
       <workItem from="1579006959465" duration="10564000" />
       <workItem from="1579055666906" duration="12189000" />
+      <workItem from="1579238568901" duration="5434000" />
+      <workItem from="1579246289712" duration="3840000" />
+      <workItem from="1579309310955" duration="24133000" />
+      <workItem from="1579486366497" duration="2324000" />
+      <workItem from="1579509523535" duration="1515000" />
+      <workItem from="1579748655977" duration="15000" />
+      <workItem from="1580115877230" duration="1864000" />
+      <workItem from="1580270490844" duration="9052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="993624000" />
+    <option name="totallyTimeSpent" value="1041801000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="916" y="0" width="1023" height="1040" extended-state="0" />
+    <frame x="724" y="0" width="1113" height="1041" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992658" visible="true" weight="0.2211838" />
-      <window_info id="Structure" order="1" sideWeight="0.5007342" side_tool="true" weight="0.09594883" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8681898" visible="true" weight="0.15479583" />
+      <window_info id="Structure" order="1" sideWeight="0.13181019" side_tool="true" visible="true" weight="0.15479583" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49844238" visible="true" weight="0.3693495" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4994985" weight="0.40411702" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49844238" visible="true" weight="0.37334803" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4994985" weight="0.40352812" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -541,6 +527,7 @@
     <SUITE FILE_PATH="coverage/day$day10c.coverage" NAME="day10c Coverage Results" MODIFIED="1575122554011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/day$day20a.coverage" NAME="day20a Coverage Results" MODIFIED="1576328197546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
     <SUITE FILE_PATH="coverage/day$day38d.coverage" NAME="day38d Coverage Results" MODIFIED="1578404832739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day38" />
+    <SUITE FILE_PATH="coverage/day$addsaaa.coverage" NAME="addsaaa Coverage Results" MODIFIED="1580117096419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/concurrent_manager" />
     <SUITE FILE_PATH="coverage/day$test.coverage" NAME="test Coverage Results" MODIFIED="1578213334763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day37" />
     <SUITE FILE_PATH="coverage/day$day31d.coverage" NAME="day31d Coverage Results" MODIFIED="1577342382687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day31" />
     <SUITE FILE_PATH="coverage/day$day41b.coverage" NAME="day41b Coverage Results" MODIFIED="1578972748718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41" />
@@ -572,18 +559,19 @@
     <SUITE FILE_PATH="coverage/day$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1577613656297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day34/ftp_server" />
     <SUITE FILE_PATH="coverage/day$day40j.coverage" NAME="day40j Coverage Results" MODIFIED="1578823804199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
     <SUITE FILE_PATH="coverage/day$day38k.coverage" NAME="day38k Coverage Results" MODIFIED="1578538670530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day38" />
+    <SUITE FILE_PATH="coverage/day$concur.coverage" NAME="concur Coverage Results" MODIFIED="1579250915882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/concurrent_manager" />
     <SUITE FILE_PATH="coverage/day$day02.coverage" NAME="day02 Coverage Results" MODIFIED="1573570137866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/day$day37d.coverage" NAME="day37d Coverage Results" MODIFIED="1578192892532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day37" />
-    <SUITE FILE_PATH="coverage/day$day14a.coverage" NAME="day14a Coverage Results" MODIFIED="1575531189348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
     <SUITE FILE_PATH="coverage/day$day39e.coverage" NAME="day39e Coverage Results" MODIFIED="1578632397151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day39" />
+    <SUITE FILE_PATH="coverage/day$day14a.coverage" NAME="day14a Coverage Results" MODIFIED="1579340905420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
     <SUITE FILE_PATH="coverage/day$day32ds.coverage" NAME="day32ds Coverage Results" MODIFIED="1577377822820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day32" />
-    <SUITE FILE_PATH="coverage/day$day38l.coverage" NAME="day38l Coverage Results" MODIFIED="1578409538607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day38" />
+    <SUITE FILE_PATH="coverage/day$day38l.coverage" NAME="day38l Coverage Results" MODIFIED="1579244354425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day38" />
     <SUITE FILE_PATH="coverage/day$day06a.coverage" NAME="day06a Coverage Results" MODIFIED="1574346559101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/day$day31dc.coverage" NAME="day31dc Coverage Results" MODIFIED="1577346574969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day31" />
     <SUITE FILE_PATH="coverage/day$day20b.coverage" NAME="day20b Coverage Results" MODIFIED="1576334311082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
     <SUITE FILE_PATH="coverage/day$day32as.coverage" NAME="day32as Coverage Results" MODIFIED="1577361253047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day32" />
-    <SUITE FILE_PATH="coverage/day$day17a.coverage" NAME="day17a Coverage Results" MODIFIED="1575806067225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
-    <SUITE FILE_PATH="coverage/day$day25d.coverage" NAME="day25d Coverage Results" MODIFIED="1576838310262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day25" />
+    <SUITE FILE_PATH="coverage/day$day17a.coverage" NAME="day17a Coverage Results" MODIFIED="1580115955901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
+    <SUITE FILE_PATH="coverage/day$day25d.coverage" NAME="day25d Coverage Results" MODIFIED="1579333590475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day25" />
     <SUITE FILE_PATH="coverage/day$day26c.coverage" NAME="day26c Coverage Results" MODIFIED="1576994992382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day26" />
     <SUITE FILE_PATH="coverage/day$ddd.coverage" NAME="ddd Coverage Results" MODIFIED="1579006976032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41" />
     <SUITE FILE_PATH="coverage/day$day25b.coverage" NAME="day25b Coverage Results" MODIFIED="1576752678030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day25" />
@@ -606,6 +594,7 @@
     <SUITE FILE_PATH="coverage/day$day19c.coverage" NAME="day19c Coverage Results" MODIFIED="1576345448058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day19" />
     <SUITE FILE_PATH="coverage/day$day36c.coverage" NAME="day36c Coverage Results" MODIFIED="1577963730917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day36" />
     <SUITE FILE_PATH="coverage/day$io_multiplexingserver.coverage" NAME="io_multiplexingserver Coverage Results" MODIFIED="1579066593765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41/io多路复用" />
+    <SUITE FILE_PATH="coverage/day$addsa.coverage" NAME="addsa Coverage Results" MODIFIED="1580116196241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/concurrent_manager" />
     <SUITE FILE_PATH="coverage/day$day21c.coverage" NAME="day21c Coverage Results" MODIFIED="1576575458839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21" />
     <SUITE FILE_PATH="coverage/day$day08a.coverage" NAME="day08a Coverage Results" MODIFIED="1575273863859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08" />
     <SUITE FILE_PATH="coverage/day$day31as.coverage" NAME="day31as Coverage Results" MODIFIED="1577340191091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day31" />
@@ -617,6 +606,7 @@
     <SUITE FILE_PATH="coverage/day$day29b.coverage" NAME="day29b Coverage Results" MODIFIED="1577176256491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
     <SUITE FILE_PATH="coverage/day$exam.coverage" NAME="exam Coverage Results" MODIFIED="1578846285354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
     <SUITE FILE_PATH="coverage/day$day41e.coverage" NAME="day41e Coverage Results" MODIFIED="1578984583028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41" />
+    <SUITE FILE_PATH="coverage/day$day60b.coverage" NAME="day60b Coverage Results" MODIFIED="1580282849348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day60" />
     <SUITE FILE_PATH="coverage/day$day14b.coverage" NAME="day14b Coverage Results" MODIFIED="1575531184714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
     <SUITE FILE_PATH="coverage/day$39d.coverage" NAME="39d Coverage Results" MODIFIED="1578553452752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day39" />
     <SUITE FILE_PATH="coverage/day$day39f.coverage" NAME="day39f Coverage Results" MODIFIED="1578639363358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day39" />
@@ -643,8 +633,8 @@
     <SUITE FILE_PATH="coverage/day$day16a.coverage" NAME="day16a Coverage Results" MODIFIED="1575894110385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16" />
     <SUITE FILE_PATH="coverage/day$summary.coverage" NAME="summary Coverage Results" MODIFIED="1575858390329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08" />
     <SUITE FILE_PATH="coverage/day$day38j_clenit.coverage" NAME="day38j_clenit Coverage Results" MODIFIED="1578461011868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day38" />
-    <SUITE FILE_PATH="coverage/day$day39b.coverage" NAME="day39b Coverage Results" MODIFIED="1578546383649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day39" />
     <SUITE FILE_PATH="coverage/day$day39k.coverage" NAME="day39k Coverage Results" MODIFIED="1578641775601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day39" />
+    <SUITE FILE_PATH="coverage/day$day39b.coverage" NAME="day39b Coverage Results" MODIFIED="1579242589849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day39" />
     <SUITE FILE_PATH="coverage/day$day13b.coverage" NAME="day13b Coverage Results" MODIFIED="1575393606982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
     <SUITE FILE_PATH="coverage/day$day33bs.coverage" NAME="day33bs Coverage Results" MODIFIED="1577427543533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day33" />
     <SUITE FILE_PATH="coverage/day$day38f.coverage" NAME="day38f Coverage Results" MODIFIED="1578458220672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day38" />
@@ -652,6 +642,7 @@
     <SUITE FILE_PATH="coverage/day$day41eclient.coverage" NAME="day41eclient Coverage Results" MODIFIED="1579008943836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41" />
     <SUITE FILE_PATH="coverage/day$day33cc.coverage" NAME="day33cc Coverage Results" MODIFIED="1577431012139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day33" />
     <SUITE FILE_PATH="coverage/day$day41d.coverage" NAME="day41d Coverage Results" MODIFIED="1578975433237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41" />
+    <SUITE FILE_PATH="coverage/day$day60a.coverage" NAME="day60a Coverage Results" MODIFIED="1580271766172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day60" />
     <SUITE FILE_PATH="coverage/day$day10a.coverage" NAME="day10a Coverage Results" MODIFIED="1575083370611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/day$day30bs.coverage" NAME="day30bs Coverage Results" MODIFIED="1577270986035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day30" />
     <SUITE FILE_PATH="coverage/day$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1577616297383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day34/ftp_server/core" />
@@ -660,8 +651,8 @@
     <SUITE FILE_PATH="coverage/day$day01.coverage" NAME="day01 Coverage Results" MODIFIED="1573621160181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
     <SUITE FILE_PATH="coverage/day$day36d.coverage" NAME="day36d Coverage Results" MODIFIED="1578038629752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day36" />
     <SUITE FILE_PATH="coverage/day$dat24b.coverage" NAME="dat24b Coverage Results" MODIFIED="1576678463700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day24" />
-    <SUITE FILE_PATH="coverage/day$day16b.coverage" NAME="day16b Coverage Results" MODIFIED="1575893332431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16" />
     <SUITE FILE_PATH="coverage/day$day36fs.coverage" NAME="day36fs Coverage Results" MODIFIED="1578042013186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day36" />
+    <SUITE FILE_PATH="coverage/day$day16b.coverage" NAME="day16b Coverage Results" MODIFIED="1579342729840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16" />
     <SUITE FILE_PATH="coverage/day$day27b.coverage" NAME="day27b Coverage Results" MODIFIED="1577029223056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
     <SUITE FILE_PATH="coverage/day$day36a.coverage" NAME="day36a Coverage Results" MODIFIED="1577687598279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day36" />
     <SUITE FILE_PATH="coverage/day$client.coverage" NAME="client Coverage Results" MODIFIED="1579016972113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41/非阻塞io" />
@@ -683,388 +674,306 @@
     <SUITE FILE_PATH="coverage/day$day36k.coverage" NAME="day36k Coverage Results" MODIFIED="1578058344084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day36" />
     <SUITE FILE_PATH="coverage/day$day38c.coverage" NAME="day38c Coverage Results" MODIFIED="1578390239450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day38" />
     <SUITE FILE_PATH="coverage/day$day32bs.coverage" NAME="day32bs Coverage Results" MODIFIED="1577366754055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day32" />
+    <SUITE FILE_PATH="coverage/day$day60c.coverage" NAME="day60c Coverage Results" MODIFIED="1580284681761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day60" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day24/day24b.py">
+    <entry file="file://$PROJECT_DIR$/day23/day23b.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3750">
-          <caret line="125" column="13" lean-forward="true" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
+        <state relative-caret-position="-811">
+          <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day38/day38j_clenit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day38/day38f.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day38/day38e.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day38/day38d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-          <folding>
-            <element signature="e#726#766#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day38/day38c.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day38/day38b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day37/day37c.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="49" column="16" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-          <folding>
-            <element signature="e#510#528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day40d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#26#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/python/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="779" selection-start-line="779" selection-end-line="779" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day39/day39copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/python/Lib/concurrent/futures/thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day41/adds.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/121723227/greenlet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-938">
-          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day40f.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#74#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day41/day41a.py">
+    <entry file="file://$PROJECT_DIR$/day30/day30cc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/python/Lib/site-packages/requests/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="835" column="8" selection-start-line="835" selection-start-column="8" selection-end-line="835" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day41/day41c.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day41/day41b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="110" column="18" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day02/day02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-338">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03/day03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03/day03_a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day41/ddd.py" />
-    <entry file="file://$PROJECT_DIR$/day04/day04_a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2550">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day40k.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="e#21#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day40j.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1148">
-          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day40l.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/exam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
-          <caret line="235" column="43" selection-start-line="235" selection-start-column="43" selection-end-line="235" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/exam1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day40e.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-          <folding>
-            <element signature="e#107#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day40c.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day40b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <marker date="1578754847187" expanded="true" signature="81:198" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day40a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day39/day39a.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day39/day39k.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day39/day39d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding>
-            <element signature="e#14#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day39/day39e.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
-          <folding>
-            <element signature="e#2000#2028#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day39/day39f.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day39/day39b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day4m.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-          <folding>
-            <element signature="e#504#553#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day41/day41e.serverpy" />
-    <entry file="file://$PROJECT_DIR$/day39/day39c.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day41/day41d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day41/day41eclient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day41/day41eserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day41/非阻塞io/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day41/io多路复用/io_multiplexingclient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day41/非阻塞io/server.py">
+    <entry file="file://$PROJECT_DIR$/day30/day30bs.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day30/day30bc.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day29/day29c.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2370">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="-1967">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day41/io多路复用/io_multiplexingserver.py">
+    <entry file="file://$PROJECT_DIR$/day28/day28a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day28/day28b.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <caret line="45" column="22" lean-forward="true" selection-start-line="43" selection-end-line="66" selection-end-column="9" />
           <folding>
-            <element signature="e#182#195#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day41/io多路复用/selector_demo.py">
+    <entry file="file://$PROJECT_DIR$/day10/day10b.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10/day10a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        <state relative-caret-position="-541">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10/day10c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" selection-start-line="6" selection-end-line="38" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day12/loginword">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day15/exam.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day15/day15b.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day16/day16a.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day16/day16b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day16/day16c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/day17a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/day17b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="190" column="26" lean-forward="true" selection-start-line="190" selection-start-column="26" selection-end-line="190" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day18/day18a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day18/day18b.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/day13b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day12/day12a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3810">
+          <caret line="157" column="9" selection-start-line="157" selection-start-column="9" selection-end-line="157" selection-end-column="9" />
           <folding>
-            <element signature="e#91#102#0" expanded="true" />
+            <element signature="e#693#720#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day41/day41f.py">
+    <entry file="file://$PROJECT_DIR$/day13/day13a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+        <state relative-caret-position="2490">
+          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/day14a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day15/day15a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="93" column="15" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day12/day12b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/day11b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/day11a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/day14b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day40/新建文本文档.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day40/day40k.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day40/day40l.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day38/day38j_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day37/day37a.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day18/day18c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day37/day37c.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day37/day37b.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day38/day38k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day41/day41c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day40/day40b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-447" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day40/day40d.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day40/day40f.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent_manager/mysql" />
+    <entry file="file://$PROJECT_DIR$/concurrent_manager/addsaaa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent_manager/addsa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent_manager/concur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/121723227/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="5046" column="1" selection-start-line="5046" selection-start-column="1" selection-end-line="5046" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day60/day60b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day60/day60a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="22" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day60/day60c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="137" column="38" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
         </state>
       </provider>
     </entry>
