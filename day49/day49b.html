@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>模态框</title>
+
+    <style>
+        .cover{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.3);
+        }
+        .modal{
+            width: 600px;
+            height: 400px;
+            background-color: white;
+            position: fixed;
+            z-index: 1000;
+            top: 50%;
+            left: 50%;
+            margin-top: -200px;
+            margin-left: -300px;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<div class="cover"></div>
+<div class="modal"></div>
+</body>
+</html>

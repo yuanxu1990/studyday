@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>float</title>
+    <style>
+        .c1 {
+            width: 20%;
+            height: 500px;
+            background-color: darkturquoise;
+            float: left;
+        }
+        .c2 {
+            width:80%;
+            height: 500px;
+            background-color: red;
+            float: left;
+
+        }
+    </style>
+</head>
+<body>
+
+<!--浮动 相当于一个浮动层
+逻辑上脱离了普通的文档流  可以想象成ps中的图像分层
+浮动的框可以向左或者右移动，知道他的外缘碰到包含框或另一个浮动框的边框为止
+由于浮动框不在文档的普通流中，所以文档的普通流中的块框表现得就像浮动框不存在一样
+-->
+<div class="c1"></div>
+<div class="c2"></div>
+</body>
+</html>

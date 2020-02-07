@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #d1{
+            border: 1px solid black;
+        }
+        .c1,c2{
+            height: 100px;
+            float: left;
+        }
+
+        #d1:after{
+            content: "";
+            clear: left;
+            display: block;
+        }
+
+    </style>
+    <title>清除浮动</title>
+
+</head>
+<body>
+<div id="d1">
+
+    <div>当浮动标签溢出父标签  可以利用伪元素在在添加一个空的标签
+    同时让这个伪元素  设置为块级标签且为块级元素 这样就</div>
+    <div class="c1">c1</div>
+    <div class="c2">c2</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,665 @@
+<h2>css引入方式：</h2>
+<p>　　1 直接在标签中使用</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:html;gutter:true;">&lt;div style="color: red"&gt;Hello world.&lt;/div&gt;
+</pre>
+</div>
+<p>　　2 在html文件head中定义</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:html;gutter:true;">  &lt;style&gt;
+        p3{
+            background-color: aqua;
+        }
+    &lt;/style&gt;
+</pre>
+</div>
+<p>　　3 在html文件head中引用</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:html;gutter:true;">&lt;link rel="stylesheet" href="cnblogs.css"&gt;</pre>
+</div>
+<h2>css优先级：</h2>
+<p>　　1 选择器都一样的情况下，就近原则：</p>
+<p>　　　　内联样式&gt;html中head定义&gt;引用，分别对应上文css引入方式的1&gt;2&gt;3</p>
+<p>　　2 选择器不一样的情况，根据优先级权重：</p>
+<div>
+<table border="1" cellspacing="0">
+<tbody>
+<tr>
+<td valign="top" width="284">
+<p>内联样式</p>
+</td>
+<td valign="top" width="284">
+<p>1000</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="284">
+<p>Id<span style="font-family: 宋体;">选择器</span></p>
+</td>
+<td valign="top" width="284">
+<p>100</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="284">
+<p>类选择器</p>
+</td>
+<td valign="top" width="284">
+<p>10</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="284">
+<p>元素选择器</p>
+</td>
+<td valign="top" width="284">
+<p>1</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp; &nbsp;　　　　如果出现嵌套那么权重相加</p>
+<h2>css选择器：</h2>
+<p>　　1 基本选择器：</p>
+<p>　　　　元素选择器：{ css样式}</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:html;gutter:true;"> span{color: red；}  标签选择器
+.c1{color: red；}     类选择器
+#d1{color: red；}   id选择器
+</pre>
+</div>
+<p>　　2 通用选择器：通常用来指定全局的样式</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:html;gutter:true;">*{
+
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+</pre>
+</div>
+<p>　　3 组合选择器</p>
+<div>
+<table style="height: 92px; width: 670px;" border="1" align="left">
+<tbody>
+<tr>
+<td>后代选择器(div p)</td>
+<td>div标签内所有的p标签</td>
+</tr>
+<tr>
+<td>子选择器(div&gt;p)</td>
+<td>div标签中的下一级的p标签（只找div的子标签）</td>
+</tr>
+<tr>
+<td>毗邻选择器(div+p)</td>
+<td>div标签后第一个p标签，div和p是同级</td>
+</tr>
+<tr>
+<td>弟弟选择器(div~p)</td>
+<td>div标签后的所有p标签，div和p是同级</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>　　　　组合选择器不但可以只用标签选择器，也可以通过属性加标签和属性加属性的方式。</p>
+<p>　　　　例如：</p>
+<p>&nbsp;　　　　　　#d1 .c1&nbsp; &nbsp; 意思就是id=d1 的标签包含的所有class=c1标签</p>
+<p>　　　　　　 div .c1&nbsp; &nbsp; &nbsp;意思就是div标签包含的素有class=c1标签</p>
+<p>　　4 属性选择器：</p>
+<div>
+<table style="height: 151px; width: 674px;" border="1" align="left">
+<tbody>
+<tr>
+<td>[s10]</td>
+<td>属性为s10</td>
+</tr>
+<tr>
+<td>[s10='bbbb']</td>
+<td>属性s10='bbbb'</td>
+</tr>
+<tr>
+<td>[s10^='bbbb']</td>
+<td>属性s10值以bbbb开头</td>
+</tr>
+<tr>
+<td>[s10$='bbbb']</td>
+<td>属性s10值以bbbb结尾</td>
+</tr>
+<tr>
+<td>[s10*='bbbb']</td>
+<td>属性s10值中包含bbbb</td>
+</tr>
+<tr>
+<td>[s10~='bbbb']</td>
+<td>属性s10值中以空格隔开的含有bbbb的</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<h2>&nbsp;</h2>
+<h2>&nbsp;</h2>
+<p>&nbsp;</p>
+<p>　　5 分组选择器和嵌套选择器：</p>
+<p>　　　　分组：</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:html;gutter:true;">div, p {
+  color: red;
+}
+</pre>
+</div>
+<p>　　　　嵌套：</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:html;gutter:true;">.c3 div {
+  color: green;
+}
+
+class=c3的标签下的div标签
+</pre>
+</div>
+<p>　　6 伪类选择器和伪元素选择器：</p>
+<p>　　　　伪类选择器：</p>
+<div>
+<table style="height: 113px; width: 674px;" border="1" align="left">
+<tbody>
+<tr>
+<td>link</td>
+<td>未访问的链接</td>
+<td>a:link{color:red;}</td>
+<td>未点击的链接显示样式</td>
+</tr>
+<tr>
+<td>visited</td>
+<td>已访问的链接</td>
+<td>a:visited{color:red;}</td>
+<td>以点击的链接显示样式</td>
+</tr>
+<tr>
+<td>hover</td>
+<td>鼠标移动到链接上</td>
+<td>a:hover{color:red;}</td>
+<td>鼠标移动到链接显示样式</td>
+</tr>
+<tr>
+<td>active</td>
+<td>选定的链接</td>
+<td>a:active{color:red;}</td>
+<td>鼠标左键点击链接显示样式</td>
+</tr>
+<tr>
+<td>focus</td>
+<td>input输入框获取焦点时的样式</td>
+<td>input:foucs{outline:none;backgroud-color:#eee}</td>
+<td>鼠标点击input输入框时的显示样式</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>　　　　伪元素选择器：</p>
+<div>
+<table style="height: 59px; width: 678px;" border="1" align="left">
+<tbody>
+<tr>
+<td>first-letter</td>
+<td>h1:first-letter{font-size:48px;}</td>
+<td>h1标签内容第一个文字大小为48px</td>
+</tr>
+<tr>
+<td>before</td>
+<td>a:before{content:"#"}</td>
+<td>a标签之前加上#</td>
+</tr>
+<tr>
+<td>after</td>
+<td>div:after{content:"" display:block;}</td>
+<td>div标签之后加上空内容,且为块级元素</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>css属性：</h2>
+<p>　　1 文字属性：</p>
+<p>　　　　文字对齐 text-align：</p>
+<div>
+<table style="height: 94px; width: 660px;" border="1" align="left">
+<tbody>
+<tr>
+<td>left</td>
+<td>左边对齐，默认值</td>
+</tr>
+<tr>
+<td>right</td>
+<td>右对齐</td>
+</tr>
+<tr>
+<td>center</td>
+<td>居中对齐</td>
+</tr>
+<tr>
+<td>justify</td>
+<td>两端对齐</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>　　　　文字装饰 text-decoration用来给文字添加特殊效果：</p>
+<div>
+<table style="height: 110px; width: 676px;" border="1" align="left">
+<tbody>
+<tr>
+<td>none</td>
+<td>默认。也可以用来去除a标签的下划线</td>
+</tr>
+<tr>
+<td>underline</td>
+<td>文本下的一条线</td>
+</tr>
+<tr>
+<td>overline</td>
+<td>文本上的一条线</td>
+</tr>
+<tr>
+<td>line-through</td>
+<td>定义穿过文本下的一条线</td>
+</tr>
+<tr>
+<td>inherit</td>
+<td>继承父元素的text-decoration属性的值</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>　　　　段落的第一行缩进：</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:html;gutter:true;">p{
+text-indent:32px;
+}
+</pre>
+</div>
+<p>&nbsp;</p>
+<p>　　2 背景属性：</p>
+<div>
+<table style="height: 191px; width: 667px;" border="1" align="left">
+<tbody>
+<tr>
+<td>属性</td>
+<td>用法</td>
+<td>说明</td>
+</tr>
+<tr>
+<td>backgroud-color</td>
+<td>backgroud-color:red</td>
+<td>背景颜色为红色</td>
+</tr>
+<tr>
+<td>backgroud-image</td>
+<td>backgroud-image:url('图片链接')</td>
+<td>背景图片</td>
+</tr>
+<tr>
+<td>backgroud-repeat</td>
+<td>backgroud-repeat:repeat</td>
+<td>平铺整个网页（若图片小于父标签默认重复平复真个网页）</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>backgroud-repeat:no-repeat</td>
+<td>不重复平铺</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>backgroud-repeat:repeat-x</td>
+<td>在x轴重复平铺</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>backgroud-repeat:repeat-y</td>
+<td>在y轴重复平铺</td>
+</tr>
+<tr>
+<td>backgroud-position</td>
+<td>backgroud-position:right top</td>
+<td>背景位置 右边 上方</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>backgroud-position:400px 400px</td>
+<td>背景位置 200px&nbsp; 200px</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;　　简写：backgroud:red url('图片链接') no-repeat right top;</p>
+<p>&nbsp;</p>
+<p>&nbsp;　　3 边框：</p>
+<div>
+<table style="height: 152px; width: 671px;" border="1" align="left">
+<tbody>
+<tr>
+<td>border-width</td>
+<td>&nbsp;</td>
+<td>宽度</td>
+</tr>
+<tr>
+<td>border-style</td>
+<td>none</td>
+<td>边框样式 无边框</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>dotted</td>
+<td>点状虚线边框</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>dashed</td>
+<td>矩形虚线边框</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>solid</td>
+<td>实线边框</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>border-top/bottom/left/right-style</td>
+<td>边框上/下/左/右样式</td>
+</tr>
+<tr>
+<td>border-color</td>
+<td>border-color</td>
+<td>边框颜色</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>border-top/bottom/left/right-color</td>
+<td>边框颜色上/下/左/右样式</td>
+</tr>
+<tr>
+<td>border-radius</td>
+<td>border-radiux:50%</td>
+<td>边角钝化。设置为长或宽的一般就是一个圆形</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>　　4 css盒子模型：</p>
+<div>
+<table style="height: 87px; width: 668px;" border="1" align="left">
+<tbody>
+<tr>
+<td>margin</td>
+<td>margin:0 auto</td>
+<td>居中</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>margin-top/bottom/left/right:10px</td>
+<td>外边距上/下/左/右</td>
+</tr>
+<tr>
+<td>padding</td>
+<td>padding:0</td>
+<td>内边距为0</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>padding-top/bottom/left/right:10px</td>
+<td>内边距上/下/左/右</td>
+</tr>
+<tr>
+<td>border</td>
+<td>border:1px solid red;</td>
+<td>外边距和内边距中间的部分</td>
+</tr>
+<tr>
+<td>content</td>
+<td>内容</td>
+<td>盒子的内容，比如文字图片等</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>　　5 display 控制标签的显示效果</p>
+<div>
+<table style="height: 90px; width: 669px;" border="1" align="left">
+<tbody>
+<tr>
+<td>none</td>
+<td>在浏览器中不显示</td>
+</tr>
+<tr>
+<td>block</td>
+<td>以块级元素进行展示</td>
+</tr>
+<tr>
+<td>inline</td>
+<td>以行级元素进行展示</td>
+</tr>
+<tr>
+<td>inline-block</td>
+<td>同时有块级和行级元素的特性</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;　　　visibility:hidden 可以隐藏某个元素，但是该元素的空间无法隐藏。</p>
+<p>　　　 display:none可以隐藏元素，同时隐藏该元素的空间</p>
+<p>　　</p>
+<p>&nbsp;</p>
+<p>　　6 浮动</p>
+<p>　　　　css中任何元素都可以浮动，浮动后回生成一个块级元素。可以向做或向右移动，直到他的外边缘碰到别的框边。浮动框已经脱离了文档的普通流中，就像ps的图层一样。这样就可能会造成父标签塌陷无法展示（恰巧父标签没有指定行高或没有其他的内容或元素）</p>
+<div>
+<table style="height: 80px; width: 669px;" border="1" align="left">
+<tbody>
+<tr>
+<td>float:none</td>
+<td>默认。没有浮动</td>
+</tr>
+<tr>
+<td>float:right</td>
+<td>向右浮动</td>
+</tr>
+<tr>
+<td>float:left</td>
+<td>向左浮动</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:html;collapse:true;;gutter:true;">    &lt;style&gt;
+        .c1 {
+            width: 20%;
+            height: 500px;
+            background-color: darkturquoise;
+            float: left;
+        }
+        .c2 {
+            width:80%;
+            height: 500px;
+            background-color: red;
+            float: left;
+
+        }
+    &lt;/style&gt;
+</pre>
+</div>
+<p>　　</p>
+<p>　　7 清除浮动clear</p>
+<p>　　　　clear 只能清除自己标签的浮动，并不能对浮动的标签起作用</p>
+<div>
+<table style="height: 111px; width: 665px;" border="1" align="left">
+<tbody>
+<tr>
+<td>clear:left</td>
+<td>清除左侧浮动</td>
+</tr>
+<tr>
+<td>clear:right</td>
+<td>清除右侧浮动</td>
+</tr>
+<tr>
+<td>clear:both</td>
+<td>清除左右两侧浮动</td>
+</tr>
+<tr>
+<td>clear:none</td>
+<td>允许浮动元素出现在两侧，默认值</td>
+</tr>
+<tr>
+<td>clear:inherit</td>
+<td>从父元素继承clear属性值</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;　　　　伪元素清除浮动：</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:html;collapse:true;;gutter:true;">        #d1:after{
+            content: "";
+            clear: both;
+            display: block;
+        }
+</pre>
+</div>
+<p>　　　　同时还有 固定高度和 overflow：hidden清除浮动</p>
+<p>&nbsp;</p>
+<p>　　8 溢出属性overflow：</p>
+<p>　　　　当标签内内容多的使标签完全包裹的时候，就会溢出。比如在使用博客园插入表格的时候，表格超过2个化，会造成表格错乱。就可以使用overflow来清除。</p>
+<div>
+<table style="height: 160px; width: 668px;" border="1" align="left">
+<tbody>
+<tr>
+<td>overflow-x</td>
+<td>水平方向</td>
+</tr>
+<tr>
+<td>overflow-y</td>
+<td>垂直方向</td>
+</tr>
+<tr>
+<td>overflow:visible</td>
+<td>默认。如果不能包裹就溢出</td>
+</tr>
+<tr>
+<td>overflow:hidden</td>
+<td>超过边框部分隐藏</td>
+</tr>
+<tr>
+<td>overflow:scroll</td>
+<td>如果内容溢出，就出现滚动条查看</td>
+</tr>
+<tr>
+<td>overflow:auto</td>
+<td>如果内容溢出，就出现滚动条查看</td>
+</tr>
+<tr>
+<td>overflow:inherit</td>
+<td>从父元素继承overflow属性值</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>　　9 定位 position</p>
+<div>
+<table style="height: 96px; width: 666px;" border="1" align="left">
+<tbody>
+<tr>
+<td>position:static</td>
+<td>默认无定位</td>
+</tr>
+<tr>
+<td>position:relative</td>
+<td>相对定位。相对标签以前的位置进行定位</td>
+</tr>
+<tr>
+<td>position:absolute</td>
+<td>绝对定位。相对已经定位的父标签进行定位。若没有就会一直找到body标签</td>
+</tr>
+<tr>
+<td>position:fixed</td>
+<td>固定定位</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>　　10 z-index 对象层叠顺序</p>
+<p>　　　　数值越大越靠近你。只有定位的元素才能使用z-index，浮动的不行</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:html;gutter:true;">.c1{
+z-index:1000
+}
+</pre>
+</div>
+<p>　　&nbsp; &nbsp; &nbsp; &nbsp;经典应用模态框</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>　　11 opacity透明度：</p>
+<p>　　　　取值0-1。opacity改变元素，子元素的透明效果，rgba只改变背景颜色透明度</p>
+<p>&nbsp;</p>

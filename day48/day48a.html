@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>form表单</title>
+</head>
+<body>
+
+<!--autocomplete="off"自动填充 novalidate 不做校验 例如email-->
+<form action="http://127.0.0.1:10055" method="get" enctype="multipart/form-data" autocomplete="off" novalidate >
+
+<!--     form 表单中 用name标识键名 value标识键值  readonly 只读不能该
+valus 在这里就是默认值    placeholder 设置占位  disabled禁用
+
+
+-->
+
+    <p>
+<!--         lable 标签用于关联的input框 除了用for关联id 也可以直接将input框直接写在lable框内-->
+        <lable for="'i1'">用户名：</lable>
+
+        <input id="i1" name="username" type="text" readonly value="usename"></p>
+
+    <p>账号：<input name="username1" placeholder="nidaye" type="text"></p>
+    <p>账号：<input name="username1" disabled type="text"></p>
+    <p>密码：<input name="pwd1" type="password"></p>
+    <p>确认密码：<input name="pwd2" type="password"></p>
+    <p>email:<input type="email"></p>
+    <p>  性别：
+<!--        checked 默认选中-->
+        <input type="radio" name="gender" value="1">男
+        <input checked type="radio" name="gender" value="2">女
+    </p>
+     <p>
+<!--         hidden  隐藏属性-->
+         <input type="hidden" value="hidden">
+     </p>
+    <p>
+        <input checked name="hobby" type="checkbox" value="ba">篮球
+        <input name="hobby" type="checkbox" value="zu">足球
+        <input name="hobby" type="checkbox" value="double">双色球
+        <input name="hobby" type="checkbox" value="qiuqiu">求求
+    </p>
+
+    <select name="addr" id="s2" multiple>
+
+<!--        multiple 属性 限定多选或者单选-->
+        <option value="bj">北京</option>
+        <optgroup label="上海">
+            <option value="pudong">浦东新区</option>
+            <option value="minhang">闵行区</option>
+            <option value="huangu">黄埔区</option>
+        </optgroup>
+    </select>
+
+     <select name="addr" id="s21" >
+
+<!--        selected 属性 默认选中-->
+        <option value="bj">北京</option>
+        <optgroup label="上海">
+            <option value="pudong">浦东新区</option>
+            <option value="minhang">闵行区</option>
+            <option value="huangu">黄埔区</option>
+        </optgroup>
+    </select>
+    <textarea cols="30" rows="10" ></textarea>>
+
+<!--    如果表中有file 文件类型 那么在表单标签位置要指定请求类型
+和数据封装类型      form action="http://127.0.0.1:10055" method="get" enctype="multipart/form-data"
+并且只有 指定了数据封装类型 后台才能拿到文件 -->
+    <p><input type="file" value="备注"></p>
+
+
+    <p>
+        <input type="submit" value="tijiao">
+    </p>
+    <p><input type="button">button按钮  存在意义 通常和js配合绑定事件</p>
+    <p><input type="reset">重置</p>
+    
+</form>
+
+<div style=""></div>
+</body>
+</html>

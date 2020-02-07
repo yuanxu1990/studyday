@@ -1,0 +1,113 @@
+
+
+/*通用样式*/
+*{
+
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/*左边栏*/
+.left {
+    width:20%;
+    background-color: rgba(76,77,76,0.3);
+    height:100%;
+    position: fixed;
+    left:0;
+    top: 0;
+}
+
+
+.head_img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.head_img>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.blog-name{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    top: 15px;
+}
+
+.blog-info{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid white;
+    margin: 5px 15px;
+}
+.blog-link{
+    text-align: center;
+    margin-top: 15px;
+}
+.blog-lei{
+    text-align: center;
+     margin-top: 15px;
+}
+.blog-link a ,
+.blog-lei a{
+    color: black;
+}
+
+.blog-lei a:before{
+    content: "#";
+}
+
+.right{
+    width: 80%;
+    background-color: rgb(238,237,237);
+    height: 1000px;
+    float: right;
+    overflow: auto;
+
+}
+
+.article-list{
+
+    margin-right:10% ;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.title{
+    border-left: 3px solid red;
+}
+
+.article-name{
+    display: inline-block;
+    padding: 15px;
+
+}
+.article-date{
+    float: right;
+    padding: 15px;
+}
+
+.article-info{
+    padding: 15px;
+}
+
+.article-tag{
+    border-top: 1px solid black;
+    padding: 15px;
+    margin: 15px;
+}
+
+.article{
+    background-color: white;
+    margin-bottom: 15px;
+}

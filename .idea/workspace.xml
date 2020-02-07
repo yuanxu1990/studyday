@@ -16,13 +16,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f0e0028-5a6f-4614-8c03-e3267ca1c0e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day47/data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day47/day47a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day47/day47b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day47/day47c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48/d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48/day48a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48/day48b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48/day48d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48/day48e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day48/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/cnblogs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/cnblogs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/day49a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/day49b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/day49c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/day49d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/day49e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/day49f_float.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/day49f_float1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/day49j_clear.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/day49k_overfolw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/day49k_position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/day49v_圆形图片.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/dsf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day49/tim.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day50/day50a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day50/ss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day50/sssss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61/day61a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day61/day61b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63/day63a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63/day63b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day63/day63c.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/day14a.py" beforeDir="false" afterPath="$PROJECT_DIR$/day14/day14a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day16/day16b.py" beforeDir="false" afterPath="$PROJECT_DIR$/day16/day16b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day17/day17a.py" beforeDir="false" afterPath="$PROJECT_DIR$/day17/day17a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day25/day25d.py" beforeDir="false" afterPath="$PROJECT_DIR$/day25/day25d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day39/day39e.py" beforeDir="false" afterPath="$PROJECT_DIR$/day39/day39e.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day41/day41b.py" beforeDir="false" afterPath="$PROJECT_DIR$/day41/day41b.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,28 +60,238 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day60/day60a.py">
+        <entry file="file://$PROJECT_DIR$/day50/day50a.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="22" selection-end-line="28" selection-end-column="13" />
+            <state relative-caret-position="1080">
+              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day60/day60b.py">
+        <entry file="file://$PROJECT_DIR$/day50/ss.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="66" />
+            <state relative-caret-position="210">
+              <caret line="7" column="6" selection-start-line="7" selection-end-line="7" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day60/day60c.py">
+        <entry file="file://$PROJECT_DIR$/day63/day63b.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="137" column="38" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
+            <state relative-caret-position="1197">
+              <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day50/sssss.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18720">
+              <caret line="624" column="5" lean-forward="true" selection-start-line="624" selection-start-column="5" selection-end-line="624" selection-end-column="5" />
+              <folding>
+                <element signature="e#109#113#0" expanded="true" />
+                <element signature="e#135#139#0" expanded="true" />
+                <element signature="e#151#155#0" expanded="true" />
+                <element signature="e#159#163#0" expanded="true" />
+                <element signature="e#277#281#0" expanded="true" />
+                <element signature="e#286#290#0" expanded="true" />
+                <element signature="e#353#357#0" expanded="true" />
+                <element signature="e#363#367#0" expanded="true" />
+                <element signature="e#479#483#0" expanded="true" />
+                <element signature="e#523#527#0" expanded="true" />
+                <element signature="e#597#601#0" expanded="true" />
+                <element signature="e#612#616#0" expanded="true" />
+                <element signature="e#634#638#0" expanded="true" />
+                <element signature="e#639#643#0" expanded="true" />
+                <element signature="e#881#905#0" expanded="true" />
+                <element signature="e#1218#1224#0" expanded="true" />
+                <element signature="e#1225#1231#0" expanded="true" />
+                <element signature="e#1677#1712#0" expanded="true" />
+                <element signature="e#1818#1822#0" expanded="true" />
+                <element signature="e#2027#2033#1" expanded="true" />
+                <element signature="e#2041#2047#1" expanded="true" />
+                <element signature="e#2055#2061#1" expanded="true" />
+                <element signature="e#2069#2075#1" expanded="true" />
+                <element signature="e#2147#2153#0" expanded="true" />
+                <element signature="e#2166#2172#0" expanded="true" />
+                <element signature="e#2173#2179#0" expanded="true" />
+                <element signature="e#2230#2236#0" expanded="true" />
+                <element signature="e#2237#2243#0" expanded="true" />
+                <element signature="e#2244#2250#0" expanded="true" />
+                <element signature="e#2310#2346#0" expanded="true" />
+                <element signature="e#2740#2746#1" expanded="true" />
+                <element signature="e#2755#2761#1" expanded="true" />
+                <element signature="e#2771#2777#1" expanded="true" />
+                <element signature="e#2787#2793#1" expanded="true" />
+                <element signature="e#2802#2808#1" expanded="true" />
+                <element signature="e#3166#3202#0" expanded="true" />
+                <element signature="e#3772#3778#1" expanded="true" />
+                <element signature="e#3786#3792#1" expanded="true" />
+                <element signature="e#3800#3806#1" expanded="true" />
+                <element signature="e#3814#3820#1" expanded="true" />
+                <element signature="e#3828#3834#1" expanded="true" />
+                <element signature="e#3871#3906#0" expanded="true" />
+                <element signature="e#4248#4254#1" expanded="true" />
+                <element signature="e#4262#4268#1" expanded="true" />
+                <element signature="e#4276#4282#1" expanded="true" />
+                <element signature="e#4361#4396#0" expanded="true" />
+                <element signature="e#4623#4629#1" expanded="true" />
+                <element signature="e#4637#4643#1" expanded="true" />
+                <element signature="e#4651#4657#1" expanded="true" />
+                <element signature="e#4665#4671#1" expanded="true" />
+                <element signature="e#4733#4769#0" expanded="true" />
+                <element signature="e#5093#5099#1" expanded="true" />
+                <element signature="e#5107#5113#1" expanded="true" />
+                <element signature="e#5121#5127#1" expanded="true" />
+                <element signature="e#5135#5141#1" expanded="true" />
+                <element signature="e#5278#5284#1" expanded="true" />
+                <element signature="e#5319#5355#0" expanded="true" />
+                <element signature="e#5720#5726#1" expanded="true" />
+                <element signature="e#5798#5804#1" expanded="true" />
+                <element signature="e#5877#5883#1" expanded="true" />
+                <element signature="e#6053#6059#1" expanded="true" />
+                <element signature="e#6119#6125#0" expanded="true" />
+                <element signature="e#6171#6177#1" expanded="true" />
+                <element signature="e#6185#6191#1" expanded="true" />
+                <element signature="e#6199#6205#1" expanded="true" />
+                <element signature="e#6213#6219#1" expanded="true" />
+                <element signature="e#6227#6233#1" expanded="true" />
+                <element signature="e#6241#6247#1" expanded="true" />
+                <element signature="e#6255#6261#1" expanded="true" />
+                <element signature="e#6269#6275#0" expanded="true" />
+                <element signature="e#6275#6281#0" expanded="true" />
+                <element signature="e#6340#6346#1" expanded="true" />
+                <element signature="e#6354#6360#0" expanded="true" />
+                <element signature="e#6385#6421#0" expanded="true" />
+                <element signature="e#6486#6492#1" expanded="true" />
+                <element signature="e#6590#6596#1" expanded="true" />
+                <element signature="e#6649#6655#1" expanded="true" />
+                <element signature="e#6708#6714#1" expanded="true" />
+                <element signature="e#6764#6770#1" expanded="true" />
+                <element signature="e#6925#6931#1" expanded="true" />
+                <element signature="e#7129#7135#1" expanded="true" />
+                <element signature="e#7143#7149#1" expanded="true" />
+                <element signature="e#7157#7163#1" expanded="true" />
+                <element signature="e#7171#7177#1" expanded="true" />
+                <element signature="e#7185#7191#1" expanded="true" />
+                <element signature="e#7199#7205#1" expanded="true" />
+                <element signature="e#7213#7219#1" expanded="true" />
+                <element signature="e#7227#7233#1" expanded="true" />
+                <element signature="e#7271#7306#0" expanded="true" />
+                <element signature="e#7411#7417#1" expanded="true" />
+                <element signature="e#7563#7569#1" expanded="true" />
+                <element signature="e#7816#7822#1" expanded="true" />
+                <element signature="e#7830#7836#1" expanded="true" />
+                <element signature="e#7844#7850#1" expanded="true" />
+                <element signature="e#7858#7864#1" expanded="true" />
+                <element signature="e#7872#7878#1" expanded="true" />
+                <element signature="e#7886#7892#1" expanded="true" />
+                <element signature="e#7939#7974#0" expanded="true" />
+                <element signature="e#8226#8232#1" expanded="true" />
+                <element signature="e#8240#8246#1" expanded="true" />
+                <element signature="e#8254#8260#1" expanded="true" />
+                <element signature="e#8268#8274#1" expanded="true" />
+                <element signature="e#8282#8288#0" expanded="true" />
+                <element signature="e#8390#8396#1" expanded="true" />
+                <element signature="e#8558#8593#0" expanded="true" />
+                <element signature="e#8794#8800#1" expanded="true" />
+                <element signature="e#8808#8814#1" expanded="true" />
+                <element signature="e#8822#8828#1" expanded="true" />
+                <element signature="e#8923#8927#0" expanded="true" />
+                <element signature="e#8932#8936#0" expanded="true" />
+                <element signature="e#9221#9225#0" expanded="true" />
+                <element signature="e#9231#9235#0" expanded="true" />
+                <element signature="e#9336#9372#0" expanded="true" />
+                <element signature="e#9692#9698#1" expanded="true" />
+                <element signature="e#9706#9712#1" expanded="true" />
+                <element signature="e#9720#9726#1" expanded="true" />
+                <element signature="e#9734#9740#1" expanded="true" />
+                <element signature="e#9748#9754#0" expanded="true" />
+                <element signature="e#10023#10029#1" expanded="true" />
+                <element signature="e#10157#10193#0" expanded="true" />
+                <element signature="e#10642#10648#1" expanded="true" />
+                <element signature="e#10656#10662#1" expanded="true" />
+                <element signature="e#10670#10676#1" expanded="true" />
+                <element signature="e#10684#10690#1" expanded="true" />
+                <element signature="e#10698#10704#1" expanded="true" />
+                <element signature="e#10712#10718#1" expanded="true" />
+                <element signature="e#10759#10794#0" expanded="true" />
+                <element signature="e#11105#11111#1" expanded="true" />
+                <element signature="e#11119#11125#1" expanded="true" />
+                <element signature="e#11133#11139#1" expanded="true" />
+                <element signature="e#11147#11153#1" expanded="true" />
+                <element signature="e#11161#11167#1" expanded="true" />
+                <element signature="e#11354#11360#0" expanded="true" />
+                <element signature="e#11361#11367#0" expanded="true" />
+                <element signature="e#11368#11374#0" expanded="true" />
+                <element signature="e#11375#11381#0" expanded="true" />
+                <element signature="e#11396#11402#1" expanded="true" />
+                <element signature="e#11410#11416#1" expanded="true" />
+                <element signature="e#11501#11507#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day49/dsf.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day49/day49k_overfolw.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day49/day49v_圆形图片.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day49/day49k_position.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day49/day49f_float1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day49/day49f_float.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -65,6 +302,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -75,44 +314,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day39/day39d.py" />
-        <option value="$PROJECT_DIR$/day39/locust1.py" />
-        <option value="$PROJECT_DIR$/day39/day39f.py" />
-        <option value="$PROJECT_DIR$/day39/day39jclient.py" />
-        <option value="$PROJECT_DIR$/day39/dayjserver.py" />
-        <option value="$PROJECT_DIR$/day39/day39k.py" />
-        <option value="$PROJECT_DIR$/day39/copy.py" />
-        <option value="$PROJECT_DIR$/day39/day39copy.py" />
-        <option value="$PROJECT_DIR$/day40/day40a.py" />
-        <option value="$PROJECT_DIR$/day40/day40b.py" />
-        <option value="$PROJECT_DIR$/day40/day40c.py" />
-        <option value="$PROJECT_DIR$/day40/day40d.py" />
-        <option value="$PROJECT_DIR$/day40/day40e.py" />
-        <option value="$PROJECT_DIR$/day40/dayf.py" />
-        <option value="$PROJECT_DIR$/day40/day40k.py" />
-        <option value="$PROJECT_DIR$/day40/day40j.py" />
-        <option value="$PROJECT_DIR$/day40/day40l.py" />
-        <option value="$PROJECT_DIR$/day40/day4m.py" />
-        <option value="$PROJECT_DIR$/day40/exam.py" />
-        <option value="$PROJECT_DIR$/day40/exam1.py" />
-        <option value="$PROJECT_DIR$/day41/adds.py" />
-        <option value="$PROJECT_DIR$/day41/day41a.py" />
-        <option value="$PROJECT_DIR$/day41/day41c.py" />
-        <option value="$PROJECT_DIR$/day41/day41d.py" />
-        <option value="$PROJECT_DIR$/day41/ddd.py" />
-        <option value="$PROJECT_DIR$/day41/day41e.serverpy" />
-        <option value="$PROJECT_DIR$/day41/day41e.py" />
-        <option value="$PROJECT_DIR$/day41/day41eclient.py" />
-        <option value="$PROJECT_DIR$/day41/day41eserver.py" />
-        <option value="$PROJECT_DIR$/day41/非阻塞io/client.py" />
-        <option value="$PROJECT_DIR$/day41/非阻塞io/server.py" />
-        <option value="$PROJECT_DIR$/day41/io多路复用/io_multiplexing.py" />
-        <option value="$PROJECT_DIR$/day41/io多路复用/io_multiplexingclient.py" />
-        <option value="$PROJECT_DIR$/day41/io多路复用/io_multiplexingserver.py" />
-        <option value="$PROJECT_DIR$/day41/io多路复用/selector_demo.py" />
-        <option value="$PROJECT_DIR$/day41/day41f.py" />
-        <option value="$PROJECT_DIR$/concurrent_manager/concur.py" />
-        <option value="$PROJECT_DIR$/day39/day39e.py" />
         <option value="$PROJECT_DIR$/day41/day41b.py" />
         <option value="$PROJECT_DIR$/day25/day25c.py" />
         <option value="$PROJECT_DIR$/day25/day25d.py" />
@@ -126,13 +327,51 @@
         <option value="$PROJECT_DIR$/day60/day60a.py" />
         <option value="$PROJECT_DIR$/day60/day60b.py" />
         <option value="$PROJECT_DIR$/day60/day60c.py" />
+        <option value="$PROJECT_DIR$/day61/day61a.py" />
+        <option value="$PROJECT_DIR$/day63/day61a.py" />
+        <option value="$PROJECT_DIR$/day63/day63c.py" />
+        <option value="$PROJECT_DIR$/day63/day63b.py" />
+        <option value="$PROJECT_DIR$/day61/day61b.py" />
+        <option value="$PROJECT_DIR$/day47/day47a.py" />
+        <option value="$PROJECT_DIR$/day47/data" />
+        <option value="$PROJECT_DIR$/day47/data.html" />
+        <option value="$PROJECT_DIR$/day47/day47b.html" />
+        <option value="$PROJECT_DIR$/day47/day47c.html" />
+        <option value="$PROJECT_DIR$/day48/day48b.py" />
+        <option value="$PROJECT_DIR$/day47/day47d.html" />
+        <option value="$PROJECT_DIR$/day48/d.html" />
+        <option value="$PROJECT_DIR$/day63/index.css" />
+        <option value="$PROJECT_DIR$/day63/day63d.html" />
+        <option value="$PROJECT_DIR$/day48/day63d.html" />
+        <option value="$PROJECT_DIR$/day48/day48d.html" />
+        <option value="$PROJECT_DIR$/day48/48e.html" />
+        <option value="$PROJECT_DIR$/day48/day48e.html" />
+        <option value="$PROJECT_DIR$/day49/day49a.html" />
+        <option value="$PROJECT_DIR$/day49/day49b.html" />
+        <option value="$PROJECT_DIR$/day49/day49c.html" />
+        <option value="$PROJECT_DIR$/day49/day49d.html" />
+        <option value="$PROJECT_DIR$/day49/day49e.html" />
+        <option value="$PROJECT_DIR$/day49/day49f_float.html" />
+        <option value="$PROJECT_DIR$/day49/day49j_clear.html" />
+        <option value="$PROJECT_DIR$/day49/day49k_overfolw.html" />
+        <option value="$PROJECT_DIR$/day49/day49v_圆形图片.html" />
+        <option value="$PROJECT_DIR$/day49/day49k_position.html" />
+        <option value="$PROJECT_DIR$/day49/day49m_fix.html" />
+        <option value="$PROJECT_DIR$/day49/cnblogs.html" />
+        <option value="$PROJECT_DIR$/day49/cnblogs.css" />
+        <option value="$PROJECT_DIR$/day50/day50a.html" />
+        <option value="$PROJECT_DIR$/day48/day48a.html" />
+        <option value="$PROJECT_DIR$/day49/dsf.html" />
+        <option value="$PROJECT_DIR$/day49/day49f_float1.html" />
+        <option value="$PROJECT_DIR$/day50/ss.html" />
+        <option value="$PROJECT_DIR$/day50/sssss.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="724" />
-    <option name="width" value="1113" />
-    <option name="height" value="1041" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="912" />
+    <option name="width" value="993" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -153,17 +392,22 @@
             <path>
               <item name="day" type="b2602c69:ProjectViewProjectNode" />
               <item name="day" type="462c0819:PsiDirectoryNode" />
-              <item name="day18" type="462c0819:PsiDirectoryNode" />
+              <item name="day48" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day" type="b2602c69:ProjectViewProjectNode" />
               <item name="day" type="462c0819:PsiDirectoryNode" />
-              <item name="day19" type="462c0819:PsiDirectoryNode" />
+              <item name="day49" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day" type="b2602c69:ProjectViewProjectNode" />
               <item name="day" type="462c0819:PsiDirectoryNode" />
-              <item name="day60" type="462c0819:PsiDirectoryNode" />
+              <item name="day50" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day" type="462c0819:PsiDirectoryNode" />
+              <item name="day63" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,20 +416,25 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Git.Branch.Popup.ShowAllLocals" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day48" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\day\day49" />
+      <recent name="C:\Users\Administrator\PycharmProjects\day\day48" />
       <recent name="C:\Users\Administrator\PycharmProjects\day\day40" />
       <recent name="C:\Users\Administrator\PycharmProjects\day\day39" />
       <recent name="C:\Users\Administrator\PycharmProjects\day\day34\ftp_server\core" />
-      <recent name="C:\Users\Administrator\PycharmProjects\day\day28" />
-      <recent name="C:\Users\Administrator\PycharmProjects\day\day26" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\day\day48" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -200,8 +449,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.day60c">
-    <configuration name="addsa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.day48b">
+    <configuration name="day47c.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/day/day47/day47c.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="day47a" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,12 +461,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/concurrent_manager" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day47" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/concurrent_manager/addsa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day47/day47a.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,7 +475,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="addsaaa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="day48b" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,12 +483,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/concurrent_manager" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day48" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/concurrent_manager/addsaaa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day48/day48b.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,7 +497,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day60a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="day61b" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,12 +505,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day60" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day61" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day60/day60a.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day61/day61b.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,7 +519,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day60b" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="day63b" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,34 +527,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day60" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day63" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day60/day60b.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="day60c" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="day" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day60" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day60/day60c.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day63/day63b.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,13 +543,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.day60c" />
-        <item itemvalue="Python.day60b" />
-        <item itemvalue="Python.day60a" />
-        <item itemvalue="Python.addsaaa" />
-        <item itemvalue="Python.addsa" />
+        <item itemvalue="Python.day48b" />
+        <item itemvalue="Python.day47a" />
+        <item itemvalue="JavaScript Debug.day47c.html" />
+        <item itemvalue="Python.day61b" />
+        <item itemvalue="Python.day63b" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",HTML5_OUTLINE_MODE" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -414,24 +647,31 @@
       <workItem from="1579509523535" duration="1515000" />
       <workItem from="1579748655977" duration="15000" />
       <workItem from="1580115877230" duration="1864000" />
-      <workItem from="1580270490844" duration="9052000" />
+      <workItem from="1580270490844" duration="10248000" />
+      <workItem from="1580366747454" duration="6460000" />
+      <workItem from="1580480809765" duration="6315000" />
+      <workItem from="1580525660123" duration="16044000" />
+      <workItem from="1580620596427" duration="2622000" />
+      <workItem from="1580697265161" duration="27600000" />
+      <workItem from="1580867300004" duration="29217000" />
+      <workItem from="1581035292429" duration="9558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1041801000" />
+    <option name="totallyTimeSpent" value="1140813000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="724" y="0" width="1113" height="1041" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8681898" visible="true" weight="0.15479583" />
-      <window_info id="Structure" order="1" sideWeight="0.13181019" side_tool="true" visible="true" weight="0.15479583" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.85915494" visible="true" weight="0.08155651" />
+      <window_info id="Structure" order="1" sideWeight="0.14084508" side_tool="true" visible="true" weight="0.08155651" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49844238" visible="true" weight="0.37334803" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4994985" weight="0.40352812" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49844238" visible="true" weight="0.41061756" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4994985" weight="0.4030837" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -526,6 +766,8 @@
     <SUITE FILE_PATH="coverage/day$day18b.coverage" NAME="day18b Coverage Results" MODIFIED="1576243197224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18" />
     <SUITE FILE_PATH="coverage/day$day10c.coverage" NAME="day10c Coverage Results" MODIFIED="1575122554011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/day$day20a.coverage" NAME="day20a Coverage Results" MODIFIED="1576328197546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
+    <SUITE FILE_PATH="coverage/day$day63c.coverage" NAME="day63c Coverage Results" MODIFIED="1580550513769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day63" />
+    <SUITE FILE_PATH="coverage/day$day48b.coverage" NAME="day48b Coverage Results" MODIFIED="1580809383401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day48" />
     <SUITE FILE_PATH="coverage/day$day38d.coverage" NAME="day38d Coverage Results" MODIFIED="1578404832739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day38" />
     <SUITE FILE_PATH="coverage/day$addsaaa.coverage" NAME="addsaaa Coverage Results" MODIFIED="1580117096419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/concurrent_manager" />
     <SUITE FILE_PATH="coverage/day$test.coverage" NAME="test Coverage Results" MODIFIED="1578213334763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day37" />
@@ -565,6 +807,7 @@
     <SUITE FILE_PATH="coverage/day$day39e.coverage" NAME="day39e Coverage Results" MODIFIED="1578632397151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day39" />
     <SUITE FILE_PATH="coverage/day$day14a.coverage" NAME="day14a Coverage Results" MODIFIED="1579340905420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
     <SUITE FILE_PATH="coverage/day$day32ds.coverage" NAME="day32ds Coverage Results" MODIFIED="1577377822820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day32" />
+    <SUITE FILE_PATH="coverage/day$day61a__1_.coverage" NAME="day61a (1) Coverage Results" MODIFIED="1580487577453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day63" />
     <SUITE FILE_PATH="coverage/day$day38l.coverage" NAME="day38l Coverage Results" MODIFIED="1579244354425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day38" />
     <SUITE FILE_PATH="coverage/day$day06a.coverage" NAME="day06a Coverage Results" MODIFIED="1574346559101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/day$day31dc.coverage" NAME="day31dc Coverage Results" MODIFIED="1577346574969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day31" />
@@ -577,6 +820,8 @@
     <SUITE FILE_PATH="coverage/day$day25b.coverage" NAME="day25b Coverage Results" MODIFIED="1576752678030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day25" />
     <SUITE FILE_PATH="coverage/day$day41c.coverage" NAME="day41c Coverage Results" MODIFIED="1578973032363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41" />
     <SUITE FILE_PATH="coverage/day$day38b.coverage" NAME="day38b Coverage Results" MODIFIED="1578387526999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day38" />
+    <SUITE FILE_PATH="coverage/day$day63b.coverage" NAME="day63b Coverage Results" MODIFIED="1580560911858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day63" />
+    <SUITE FILE_PATH="coverage/day$day47a.coverage" NAME="day47a Coverage Results" MODIFIED="1580809148307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day47" />
     <SUITE FILE_PATH="coverage/day$day33bc.coverage" NAME="day33bc Coverage Results" MODIFIED="1577427547514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day33" />
     <SUITE FILE_PATH="coverage/day$day29c.coverage" NAME="day29c Coverage Results" MODIFIED="1577201241422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
     <SUITE FILE_PATH="coverage/day$day36j.coverage" NAME="day36j Coverage Results" MODIFIED="1578056966590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day36" />
@@ -604,6 +849,7 @@
     <SUITE FILE_PATH="coverage/day$day38l__1_.coverage" NAME="day38l (1) Coverage Results" MODIFIED="1578468030500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day38" />
     <SUITE FILE_PATH="coverage/day$day19d.coverage" NAME="day19d Coverage Results" MODIFIED="1576345474032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day19" />
     <SUITE FILE_PATH="coverage/day$day29b.coverage" NAME="day29b Coverage Results" MODIFIED="1577176256491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
+    <SUITE FILE_PATH="coverage/day$day61a.coverage" NAME="day61a Coverage Results" MODIFIED="1580372577722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day61" />
     <SUITE FILE_PATH="coverage/day$exam.coverage" NAME="exam Coverage Results" MODIFIED="1578846285354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
     <SUITE FILE_PATH="coverage/day$day41e.coverage" NAME="day41e Coverage Results" MODIFIED="1578984583028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41" />
     <SUITE FILE_PATH="coverage/day$day60b.coverage" NAME="day60b Coverage Results" MODIFIED="1580282849348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day60" />
@@ -629,6 +875,7 @@
     <SUITE FILE_PATH="coverage/day$day32dc.coverage" NAME="day32dc Coverage Results" MODIFIED="1577377833636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day32" />
     <SUITE FILE_PATH="coverage/day$io_multiplexingclient.coverage" NAME="io_multiplexingclient Coverage Results" MODIFIED="1579066490451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41/io多路复用" />
     <SUITE FILE_PATH="coverage/day$day29a.coverage" NAME="day29a Coverage Results" MODIFIED="1577174896327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
+    <SUITE FILE_PATH="coverage/day$day61b.coverage" NAME="day61b Coverage Results" MODIFIED="1580622015234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day61" />
     <SUITE FILE_PATH="coverage/day$policy.coverage" NAME="policy Coverage Results" MODIFIED="1576498519477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21/glance/api" />
     <SUITE FILE_PATH="coverage/day$day16a.coverage" NAME="day16a Coverage Results" MODIFIED="1575894110385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16" />
     <SUITE FILE_PATH="coverage/day$summary.coverage" NAME="summary Coverage Results" MODIFIED="1575858390329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08" />
@@ -677,271 +924,6 @@
     <SUITE FILE_PATH="coverage/day$day60c.coverage" NAME="day60c Coverage Results" MODIFIED="1580284681761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day60" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day23/day23b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811">
-          <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day30/day30cc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day30/day30bs.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day30/day30bc.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day29/day29c.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1967">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day28/day28a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day28/day28b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="45" column="22" lean-forward="true" selection-start-line="43" selection-end-line="66" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10/day10b.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10/day10a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-541">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10/day10c.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" selection-start-line="6" selection-end-line="38" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day12/loginword">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day15/exam.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day15/day15b.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day16/day16a.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day16/day16b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day16/day16c.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day17/day17a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day17/day17b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="190" column="26" lean-forward="true" selection-start-line="190" selection-start-column="26" selection-end-line="190" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day18/day18a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day18/day18b.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day13/day13b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2130">
-          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day12/day12a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3810">
-          <caret line="157" column="9" selection-start-line="157" selection-start-column="9" selection-end-line="157" selection-end-column="9" />
-          <folding>
-            <element signature="e#693#720#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day13/day13a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2490">
-          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/day14a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day15/day15a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="93" column="15" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day12/day12b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/day11b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2910">
-          <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/day11a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/day14b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/新建文本文档.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day40k.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day40l.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day38/day38j_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day37/day37a.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day18/day18c.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day37/day37c.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day37/day37b.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day38/day38k.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day41/day41c.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day40b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-447" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day40d.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day40/day40f.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent_manager/mysql" />
-    <entry file="file://$PROJECT_DIR$/concurrent_manager/addsaaa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent_manager/addsa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent_manager/concur.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/python/Lib/site-packages/pymysql/err.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -956,24 +938,509 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day60/day60b.py">
+    <entry file="file://$PROJECT_DIR$/day60/day60a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="66" />
+        <state>
+          <caret line="23" column="7" selection-start-line="22" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day60/day60a.py">
+    <entry file="file://$PROJECT_DIR$/day60/day60b.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="22" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="870">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day60/day60c.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="137" column="38" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
+        <state relative-caret-position="3630">
+          <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/sqlalchemy/sql/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="288" selection-start-line="288" selection-end-line="288" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/sqlalchemy/engine/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="337" column="34" lean-forward="true" selection-start-line="337" selection-start-column="14" selection-end-line="337" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/sqlalchemy/util/deprecations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/sqlalchemy/ext/declarative/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="370" selection-start-line="370" selection-end-line="370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/sqlalchemy/ext/declarative/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="543" selection-start-line="543" selection-end-line="543" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/sqlalchemy/orm/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1404">
+          <caret line="3167" column="8" selection-start-line="3167" selection-start-column="8" selection-end-line="3167" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day61/day61a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/sqlalchemy/sql/schema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38190">
+          <caret line="1298" selection-start-line="1298" selection-end-line="1298" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/sqlalchemy/util/langhelpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31650">
+          <caret line="1068" selection-start-line="1068" selection-end-line="1068" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day61/day61b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/sqlalchemy/util/_collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/sqlalchemy/sql/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="4258" selection-start-line="4258" selection-end-line="4258" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/tables.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day47/data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day48/d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day47/day47c.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day47/day47b.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day47/day47a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day63/day63c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day63/day63a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="79" selection-start-line="79" selection-end-line="87" selection-end-column="113" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day48/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/day49j_clear.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/day49m_fix.html" />
+    <entry file="file://$PROJECT_DIR$/day48/day48b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day48/day48a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day48/day48d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day48/day48e.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/cnblogs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/day49a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/cnblogs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1380">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/day49b.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/day49c.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/day49d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/day49e.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/day49f_float.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/day49f_float1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/day49k_overfolw.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/day49v_圆形图片.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/day49k_position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day49/dsf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day50/day50a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day50/sssss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18720">
+          <caret line="624" column="5" lean-forward="true" selection-start-line="624" selection-start-column="5" selection-end-line="624" selection-end-column="5" />
+          <folding>
+            <element signature="e#109#113#0" expanded="true" />
+            <element signature="e#135#139#0" expanded="true" />
+            <element signature="e#151#155#0" expanded="true" />
+            <element signature="e#159#163#0" expanded="true" />
+            <element signature="e#277#281#0" expanded="true" />
+            <element signature="e#286#290#0" expanded="true" />
+            <element signature="e#353#357#0" expanded="true" />
+            <element signature="e#363#367#0" expanded="true" />
+            <element signature="e#479#483#0" expanded="true" />
+            <element signature="e#523#527#0" expanded="true" />
+            <element signature="e#597#601#0" expanded="true" />
+            <element signature="e#612#616#0" expanded="true" />
+            <element signature="e#634#638#0" expanded="true" />
+            <element signature="e#639#643#0" expanded="true" />
+            <element signature="e#881#905#0" expanded="true" />
+            <element signature="e#1218#1224#0" expanded="true" />
+            <element signature="e#1225#1231#0" expanded="true" />
+            <element signature="e#1677#1712#0" expanded="true" />
+            <element signature="e#1818#1822#0" expanded="true" />
+            <element signature="e#2027#2033#1" expanded="true" />
+            <element signature="e#2041#2047#1" expanded="true" />
+            <element signature="e#2055#2061#1" expanded="true" />
+            <element signature="e#2069#2075#1" expanded="true" />
+            <element signature="e#2147#2153#0" expanded="true" />
+            <element signature="e#2166#2172#0" expanded="true" />
+            <element signature="e#2173#2179#0" expanded="true" />
+            <element signature="e#2230#2236#0" expanded="true" />
+            <element signature="e#2237#2243#0" expanded="true" />
+            <element signature="e#2244#2250#0" expanded="true" />
+            <element signature="e#2310#2346#0" expanded="true" />
+            <element signature="e#2740#2746#1" expanded="true" />
+            <element signature="e#2755#2761#1" expanded="true" />
+            <element signature="e#2771#2777#1" expanded="true" />
+            <element signature="e#2787#2793#1" expanded="true" />
+            <element signature="e#2802#2808#1" expanded="true" />
+            <element signature="e#3166#3202#0" expanded="true" />
+            <element signature="e#3772#3778#1" expanded="true" />
+            <element signature="e#3786#3792#1" expanded="true" />
+            <element signature="e#3800#3806#1" expanded="true" />
+            <element signature="e#3814#3820#1" expanded="true" />
+            <element signature="e#3828#3834#1" expanded="true" />
+            <element signature="e#3871#3906#0" expanded="true" />
+            <element signature="e#4248#4254#1" expanded="true" />
+            <element signature="e#4262#4268#1" expanded="true" />
+            <element signature="e#4276#4282#1" expanded="true" />
+            <element signature="e#4361#4396#0" expanded="true" />
+            <element signature="e#4623#4629#1" expanded="true" />
+            <element signature="e#4637#4643#1" expanded="true" />
+            <element signature="e#4651#4657#1" expanded="true" />
+            <element signature="e#4665#4671#1" expanded="true" />
+            <element signature="e#4733#4769#0" expanded="true" />
+            <element signature="e#5093#5099#1" expanded="true" />
+            <element signature="e#5107#5113#1" expanded="true" />
+            <element signature="e#5121#5127#1" expanded="true" />
+            <element signature="e#5135#5141#1" expanded="true" />
+            <element signature="e#5278#5284#1" expanded="true" />
+            <element signature="e#5319#5355#0" expanded="true" />
+            <element signature="e#5720#5726#1" expanded="true" />
+            <element signature="e#5798#5804#1" expanded="true" />
+            <element signature="e#5877#5883#1" expanded="true" />
+            <element signature="e#6053#6059#1" expanded="true" />
+            <element signature="e#6119#6125#0" expanded="true" />
+            <element signature="e#6171#6177#1" expanded="true" />
+            <element signature="e#6185#6191#1" expanded="true" />
+            <element signature="e#6199#6205#1" expanded="true" />
+            <element signature="e#6213#6219#1" expanded="true" />
+            <element signature="e#6227#6233#1" expanded="true" />
+            <element signature="e#6241#6247#1" expanded="true" />
+            <element signature="e#6255#6261#1" expanded="true" />
+            <element signature="e#6269#6275#0" expanded="true" />
+            <element signature="e#6275#6281#0" expanded="true" />
+            <element signature="e#6340#6346#1" expanded="true" />
+            <element signature="e#6354#6360#0" expanded="true" />
+            <element signature="e#6385#6421#0" expanded="true" />
+            <element signature="e#6486#6492#1" expanded="true" />
+            <element signature="e#6590#6596#1" expanded="true" />
+            <element signature="e#6649#6655#1" expanded="true" />
+            <element signature="e#6708#6714#1" expanded="true" />
+            <element signature="e#6764#6770#1" expanded="true" />
+            <element signature="e#6925#6931#1" expanded="true" />
+            <element signature="e#7129#7135#1" expanded="true" />
+            <element signature="e#7143#7149#1" expanded="true" />
+            <element signature="e#7157#7163#1" expanded="true" />
+            <element signature="e#7171#7177#1" expanded="true" />
+            <element signature="e#7185#7191#1" expanded="true" />
+            <element signature="e#7199#7205#1" expanded="true" />
+            <element signature="e#7213#7219#1" expanded="true" />
+            <element signature="e#7227#7233#1" expanded="true" />
+            <element signature="e#7271#7306#0" expanded="true" />
+            <element signature="e#7411#7417#1" expanded="true" />
+            <element signature="e#7563#7569#1" expanded="true" />
+            <element signature="e#7816#7822#1" expanded="true" />
+            <element signature="e#7830#7836#1" expanded="true" />
+            <element signature="e#7844#7850#1" expanded="true" />
+            <element signature="e#7858#7864#1" expanded="true" />
+            <element signature="e#7872#7878#1" expanded="true" />
+            <element signature="e#7886#7892#1" expanded="true" />
+            <element signature="e#7939#7974#0" expanded="true" />
+            <element signature="e#8226#8232#1" expanded="true" />
+            <element signature="e#8240#8246#1" expanded="true" />
+            <element signature="e#8254#8260#1" expanded="true" />
+            <element signature="e#8268#8274#1" expanded="true" />
+            <element signature="e#8282#8288#0" expanded="true" />
+            <element signature="e#8390#8396#1" expanded="true" />
+            <element signature="e#8558#8593#0" expanded="true" />
+            <element signature="e#8794#8800#1" expanded="true" />
+            <element signature="e#8808#8814#1" expanded="true" />
+            <element signature="e#8822#8828#1" expanded="true" />
+            <element signature="e#8923#8927#0" expanded="true" />
+            <element signature="e#8932#8936#0" expanded="true" />
+            <element signature="e#9221#9225#0" expanded="true" />
+            <element signature="e#9231#9235#0" expanded="true" />
+            <element signature="e#9336#9372#0" expanded="true" />
+            <element signature="e#9692#9698#1" expanded="true" />
+            <element signature="e#9706#9712#1" expanded="true" />
+            <element signature="e#9720#9726#1" expanded="true" />
+            <element signature="e#9734#9740#1" expanded="true" />
+            <element signature="e#9748#9754#0" expanded="true" />
+            <element signature="e#10023#10029#1" expanded="true" />
+            <element signature="e#10157#10193#0" expanded="true" />
+            <element signature="e#10642#10648#1" expanded="true" />
+            <element signature="e#10656#10662#1" expanded="true" />
+            <element signature="e#10670#10676#1" expanded="true" />
+            <element signature="e#10684#10690#1" expanded="true" />
+            <element signature="e#10698#10704#1" expanded="true" />
+            <element signature="e#10712#10718#1" expanded="true" />
+            <element signature="e#10759#10794#0" expanded="true" />
+            <element signature="e#11105#11111#1" expanded="true" />
+            <element signature="e#11119#11125#1" expanded="true" />
+            <element signature="e#11133#11139#1" expanded="true" />
+            <element signature="e#11147#11153#1" expanded="true" />
+            <element signature="e#11161#11167#1" expanded="true" />
+            <element signature="e#11354#11360#0" expanded="true" />
+            <element signature="e#11361#11367#0" expanded="true" />
+            <element signature="e#11368#11374#0" expanded="true" />
+            <element signature="e#11375#11381#0" expanded="true" />
+            <element signature="e#11396#11402#1" expanded="true" />
+            <element signature="e#11410#11416#1" expanded="true" />
+            <element signature="e#11501#11507#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day50/ss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="6" selection-start-line="7" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day63/day63b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
