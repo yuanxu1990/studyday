@@ -47,8 +47,8 @@
 
 #现有两个元组((('a'),('b')),(('c'),('d')))
 # 请用python中的匿名函数成成列表[{'a':'c','b':'d'}]
-# tup_01=zip((('a'),('b')),(('c'),('d')))
-# print(tup_01)
+tup_01=zip((('a'),('b')),(('c'),('d')))
+print(list(tup_01))
 #
 # def func_01(tup):
 #     return {tup[0]:tup[1]}
@@ -74,10 +74,10 @@
 #
 #
 #
-def multipliers():
-    return (lambda x:i*x for i in range(4))
-ret=multipliers()
-print(ret)
-print([m(4) for m in multipliers()])
+# def multipliers():
+#     return (lambda x:i*x for i in range(4))
+# ret=multipliers()
+# print(ret)
+# print([m(4) for m in multipliers()])
 
 

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索框</title>
+</head>
+<body>
+<!--<input type="text" id="d2"  placeholder="wawa">-->
+<input type="text" id="d3" value="奥热曼">
+
+<script>
+    var d3Ele=document.getElementById("d3");
+    d3Ele.onfocus=function () {
+        this.value="";
+
+    };
+    d3Ele.onblur=function () {
+        if (!this.value.trim()){
+            this.value='奥热曼';
+        }
+    }
+
+</script>
+</body>
+</html>

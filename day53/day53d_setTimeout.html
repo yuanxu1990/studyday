@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>计时器</title>
+</head>
+<body>
+<label for="i1">显示日期</label>
+<input type="text" id="i1">
+<input type="button" value="开始" id="start_button">
+<input type="button" value="结束" id="stop_button">
+
+
+<script>
+    var t;
+
+    var startEle=document.getElementById("start_button");
+    var stopEle=document.getElementById("stop_button");
+   function foo_time() {
+       var new_time=new Date();
+       var str_time=new_time.toLocaleString();
+        var i1Ele=document.getElementById("i1");
+       i1Ele.value=str_time;
+
+   };
+   startEle.onclick=function () {
+       if (t===undefined) {
+             foo_time();
+      t= setInterval(foo_time,1000);
+       }
+
+   };
+   stopEle.onclick=function () {
+       clearTimeout(t);
+       console.log('cleartimeout',t);
+       t=undefined;
+
+   }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>class相关操作   开关灯</title>
+    <style>
+        .c1{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: black;
+        }
+        .c2{
+            background-color: red;
+        }
+        /*.c3{*/
+        /*    background-color: #e5ffad;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+<div class="c1 c2 c3" onclick="chan(this);">dfgdfgdf</div>
+<div class="c1 c2 c3" >dfgdfgdf2222</div>
+<div class="c1 c2 c3" >dfgdfgdf3333</div>
+<div class="c1 c2 c3" >dfgdfgdf444444</div>
+
+</body>
+
+
+<script>
+function chan(ths) {
+    ths.classList.toggle('c2');
+};
+</script>
+<script>
+    var divEle=document.getElementsByTagName('div');
+    for (var i=0;i<divEle.length;i++){
+        //遍历返回的列表，给每个标签绑定一个事件
+        divEle[i].onclick=function () {
+            this.classList.toggle('c2')
+
+        }
+    }
+
+</script>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>select联动</title>
+</head>
+<body>
+<div id="d1">
+<select name="" id="s1">
+    <option value="0">--请选择--</option>
+    <option value="1">上海</option>
+    <option value="2">北京</option>
+</select>
+
+<select name="" id="s2" style="max-height: 100%;">
+    <option value=""></option>
+</select>
+    </div>
+
+<p>this代表的是触发事件的当前标签</p>
+<script>
+    //给第一个select绑定事件onchange事件
+    //把对应市的区镇填写到第二个select框里边
+    //生成option标签
+    //添加到select内部
+    var data1={2:["昌平","朝阳","海淀区"],1:["闵行","静安","浦东"]};
+    var s1Ele=document.getElementById("s1");
+    var s2Ele=document.getElementById("s2");
+
+    s1Ele.onchange=function () {
+         s2Ele.innerHTML="";
+        var areas=data1[this.value];
+        for (var i=0;i<areas.length;i++) {
+            var opEle=document.createElement("option");
+            opEle.innerText=areas[i];
+            s2Ele.appendChild(opEle);
+        }
+
+    }
+
+
+</script>
+</body>
+</html>
