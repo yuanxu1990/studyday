@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <style>
+        .error{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<form action="" id="s1">
+    <p>
+    <label  >用户名：
+    <input type="text"  class="need" name="username">
+    <span class="error"></span>
+    </label>
+</p>
+    <p>
+    <label >密码：
+     <input type="password"  class="need" name="password">
+    <span class="error"></span>
+    </label>
+    </p>
+    <p>
+    <input type="radio" value="1">男
+    <input type="radio" value="2">女
+    </p>
+    <select name="" id="se1">
+        <option value="1">上海</option>
+        <option value="2">北京</option>
+        <option value="3">杭州</option>
+    </select>
+    <p>
+    <input type="button" value="提交" id="b1">
+
+    </p>
+</form>
+
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+    $("#b1").click(function () {
+        var $needEle=$(".need");
+        for (var i=0;i<$needEle.length;i++){
+            console.log($($needEle[i]));
+            if ($($needEle[i]).val().trim().length===0){
+                var labelName=$($needEle[i]).parent().text().trim();
+                $($needEle[i]).next().text(labelName+"不能为空");
+            }
+        }
+    return false;
+    })
+
+</script>
+
+
+</body>
+</html>

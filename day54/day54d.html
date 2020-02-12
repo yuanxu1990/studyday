@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>菜单栏练习</title>
+
+
+    <style>
+        *{
+            margin: 0;
+        }
+        .left-areas{
+            width: 300px;
+            background-color: dimgray;
+            height: 1000px;
+        }
+        ul{
+            list-style-type: none;
+            margin-left: 80px;
+        }
+         a{
+            text-decoration: none;
+        }
+        .hides{
+            display: none;
+            margin-left: 80px;
+        }
+        .title{
+            margin-left: 80px;
+            margin-bottom: 20px;
+
+        }
+        .menu-items{
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="left-areas">
+    <div class="title">菜单一</div>
+    <div class="menu-items hides">
+        <ul>
+            <li><a href="">111</a></li>
+            <li><a href="">222</a></li>
+            <li><a href="">333</a></li>
+        </ul>
+    </div>
+    <div class="title">菜单一</div>
+      <div class="menu-items hides">
+        <ul>
+            <li><a href="">444</a></li>
+            <li><a href="">555</a></li>
+            <li><a href="">666</a></li>
+        </ul>
+    </div>
+
+    <div class="title">菜单一</div>
+      <div class="menu-items hides">
+        <ul>
+            <li><a href="">777</a></li>
+            <li><a href="">888</a></li>
+            <li><a href="">999</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<script src="jquery-3.4.1.min.js"></script>
+
+<!--<script>-->
+<!--    // $(".title").click(function () {-->
+<!--    //     $(".menu-items").addClass("hides");-->
+<!--    //     $(this).next().removeClass("hides");-->
+<!--    //-->
+<!--    // })-->
+<!--    $(".title").click(function () {-->
+<!--        $(this).next().removeClass("hides" );-->
+           // $(this).next().toggle("hides");
+<!--        $(this).next().siblings(".menu-items").addClass("hides");-->
+
+<!--    })-->
+<!--</script>-->
+
+<script>
+
+    $(".title").click(function () {
+
+
+        var $currMenuitem=$(this).next();
+        $(".menu-items").not($currMenuitem).addClass("hides")
+        $currMenuitem.toggleClass("hides")
+    })
+</script>
+</body>
+</html>

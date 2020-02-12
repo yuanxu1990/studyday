@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+
+
+    <table border="1px solid balck">
+        <tr>
+            <th><input type="checkbox" ></th>
+            <th>1</th>
+             <th>2</th>
+             <th>3</th>
+        </tr>
+            <tr>
+            <th><input type="checkbox"></th>
+            <th>1</th>
+             <th>2</th>
+             <th>3</th>
+        </tr>
+            <tr>
+            <th><input type="checkbox"></th>
+            <th>1</th>
+             <th>2</th>
+             <th>3</th>
+        </tr>
+
+    </table>
+
+    <input type="button" value="全选" class="c3">
+    <input type="button" value="反选" class="c2">
+    <input type="button" value="取消" class="c1">
+</head>
+<body>
+
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+
+    $(".c3").click(function () {
+        var $checkEle=$(":checkbox");
+        for (var i=0;i<$checkEle.length;i++){
+            $($checkEle[i]).attr("checked",true);
+        }
+    });
+        $(".c1").click(function () {
+var $checkEle=$(":checkbox");
+        for (var i=0;i<$checkEle.length;i++){
+            $($checkEle[i]).attr("checked",false);
+        }
+    });
+    $(".c2").click(function () {
+        var $checkEle=$(":checkbox");
+        for (var i=0;i<$checkEle.length;i++){
+            if ($($checkEle[i]).prop("checked")){
+                $($checkEle[i]).prop("checked",false);
+            }else{
+                $($checkEle[i]).prop("checked",true);
+            }
+        }
+
+    })
+
+</script>
+
+
+</body>
+</html>

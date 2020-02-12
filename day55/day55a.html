@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>模态框</title>
+
+    <style>
+        .c1{
+            background-color: rgba(0,0,0,0.4);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 997;
+        }
+        .c2{
+
+            background-color: #c8ff75;
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -200px;
+            margin-left: -200px;
+            z-index: 1000;
+        }
+        .hide1{
+            display: none;
+
+        }
+    </style>
+</head>
+<body>
+
+<input type="button" value="点击就送" id="b1">
+<div class="c1 hide1"></div>
+<div class="c2 hide1">
+    <form action="127.0.0.1:5050">
+        <p><label >账号：<input type="text"></label></p>
+        <p><label >密码：<input type="password"></label></p>
+        <p><label >确认密码<input type="password"></label></p>
+
+        <p><input type="button" value="提交"><input type="button" value="取消" id="cancel"></p>
+    </form>
+
+</div>
+
+<script src="../day54/jquery-3.4.1.min.js"></script>
+<script>
+    $("#b1").click(function () {
+        $(".c1").removeClass("hide1");
+        $(".c2").removeClass("hide1");
+    })
+    $("#cancel").click(function () {
+         $(".c1").addClass("hide1");
+        $(".c2").addClass("hide1");
+    })
+</script>
+</body>
+</html>
