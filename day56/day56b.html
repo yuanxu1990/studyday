@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>文档处理</title>
+</head>
+<body>
+
+<table border="1" id="t1">
+
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>姓名</th>
+        <th>爱好</th>
+         <th>caozuo</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>1</th>
+        <th>蛋蛋</th>
+        <th>王者农药</th>
+          <th><button class="dele">删除</button></th>
+    </tr>
+         <tr>
+        <th>2</th>
+        <th>王永美</th>
+        <th>吃粑粑</th>
+             <th><button class="dele">删除</button></th>
+    </tr>
+
+         <tr>
+        <th>3</th>
+        <th>袁牛</th>
+        <th>吃粑粑</th>
+             <th><button class="dele">删除</button></th>
+    </tr>
+
+    </tbody>
+
+
+</table>
+<button id="b1" value="add">add</button>
+
+
+
+
+<script src="jquery-3.4.1.min.js"></script>
+
+<script>
+    $("#b1").click(function () {
+        var trEle=document.createElement("tr");
+        $(trEle).html(" " +
+            "        <th>4</th>" +
+            "        <th>蛋蛋22</th>" +
+            "        <th>王者农药1</th>" +
+            "          <th><button class='dele'>删除</button></th>" +
+            " ");
+        $("#t1").find("tbody").append(trEle)
+    });
+
+    // $(".dele").click(function () {
+    //     $(this).parent().parent().parent().remove();
+    //
+    // })
+        $("tbody").on("click",".dele",function () {
+        $(this).parent().parent().remove();
+
+    })
+</script>
+</body>
+</html>

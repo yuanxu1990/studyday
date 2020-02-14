@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>键盘相关</title>
+</head>
+<body>
+<table border="1" id="t1">
+
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>姓名</th>
+        <th>爱好</th>
+         <th>caozuo</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th><input type="checkbox"></th>
+        <th>蛋蛋</th>
+        <th>王者农药</th>
+          <th>
+              <select >
+                  <option value="1">上线</option>
+                  <option value="2">下线</option>
+                  <option value="3">离线</option>
+              </select>
+          </th>
+    </tr>
+         <tr>
+        <th><input type="checkbox"></th>
+        <th>王永美</th>
+        <th>吃粑粑</th>
+             <th> <select >
+                  <option value="1">上线</option>
+                  <option value="2">下线</option>
+                  <option value="3">离线</option>
+              </select></th>
+    </tr>
+
+         <tr>
+        <th><input type="checkbox"></th>
+        <th>袁牛</th>
+        <th>吃粑粑</th>
+             <th> <select>
+                  <option value="1">上线</option>
+                  <option value="2">下线</option>
+                  <option value="3">离线</option>
+              </select></th>
+    </tr>
+           <tr>
+        <th><input type="checkbox"></th>
+        <th>袁erha</th>
+        <th>吃baba</th>
+             <th> <select>
+                  <option value="1">上线</option>
+                  <option value="2">下线</option>
+                  <option value="3">离线</option>
+              </select></th>
+    </tr>
+
+    </tbody>
+
+
+</table>
+
+<script src="jquery-3.4.1.min.js"></script>
+
+
+<script>
+    var mode=undefined;
+    $('body').on("keydown",function (evt) {
+        console.log(evt.keyCode);
+            // 17对应键盘ctrl值
+        if (evt.keyCode===17){
+            mode=true;
+        }
+    });
+     $('body').on("keyup",function (evt) {
+           if (evt.keyCode===17){
+          mode=undefined;
+        }
+    });
+    $("select").on("change",function () {
+        // 找到本行对应的checkbox
+       var $thisEle= $(this).parent().siblings().first().find(":checkbox");
+        console.log($thisEle[0]);
+        // 找到本行复选框所选状态
+        var valEle=$(this).val();
+        // 判断本行的复选框被选中且已经按下了ctrl键
+        if ($thisEle.prop("checked")&&mode){
+            //找到所有被选中的复选框
+            var $selects=$("input[type='checkbox']:checked");
+            // var $selects=$(":checked").parent().siblings().last();
+            // 循环所有被选中的复选框，并且将他们对应行的状态框值变更
+            for (var i=0;i<$selects.length;i++){
+                $($selects[i]).parent().siblings().last().find("select").val(valEle);
+            }
+
+        }
+    })
+
+</script>
+</body>
+</html>

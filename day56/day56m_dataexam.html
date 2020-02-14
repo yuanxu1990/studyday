@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        //定义全局标志位用来标识 是新增还是修改
+        var flag=0;
+
+        $(document).ready(function () {
+            var bmEle=$(".back-pro , .medo");
+            var tbodyEle=$("tbody");
+            var inDaEle$=$($("#s1").find(':text'));
+            //模态框弹出
+            $("#add_d1").on("click",function () {
+                bmEle.removeClass("hide3");
+                flag=1;
+            });
+            //模态框中的取消按钮绑定事件
+           $("#c1").on("click",function () {
+                //清空模态框input
+               flag=0;
+               $(this).parent().find("p").find('input').val("");
+                  //隐藏模态框
+                bmEle.addClass("hide3");
+
+           });
+              // 为编辑按钮绑定事件 打开模态框 设置标志位
+               // 给每一行的编辑按钮绑定时间
+            $(".e1").on("click",function () {
+                flag=2;
+                var $dataEle=$(this).parent().parent().find('td');
+                for (var b=0;b<$dataEle.length-1;b++){
+                    $($dataEle[b]).data({b:$($dataEle[b]).text()});
+                }
+
+                 bmEle.removeClass("hide3");
+
+                console.log($($dataEle[0]).data("b"));
+                $(inDaEle$[0]).val($($dataEle[0]).data("b"));
+                $(inDaEle$[1]).val($($dataEle[1]).data("b"));
+                //将触发编辑按钮事件的爷爷标签传入tbody便于
+                //模态框提交按钮时 知道数据填写在那个标签里
+                   var $trdataEle =$(this).parent().parent();
+                 tbodyEle.data({'trobj':$trdataEle});
+                // for (var c=0;c<inDaEle$.length;c++){
+                //     $(inDaEle$[c]).val($($dataEle[c]).data("b"));
+                // }
+
+              });
+              //模态框中的提交按钮绑定事件
+              //去到用户填写的input框值
+              // 根据是编辑还是新增做不同的事情
+             // 如果是新增操作，就生成一条新的tr 家导入table后边
+                //如果是变编辑操作，根据先前编辑按钮那一行
+            //难点在于 入户确定 编辑的是哪一行---> 利用data可以存具体的jQuery
+           $("#t1").on("click",function () {
+               var valEle=$(this).parent().find("p").find('input');
+               if (flag===1) {
+                       var trEle = '    <tr>\n' +
+                           '        <td></td>\n' +
+                           '        <td></td>\n' +
+                           '        <td>\n' +
+                           '            <input type="button" class="e1" value="编辑">\n' +
+                           '            <input type="button" class="can" value="删除">\n' +
+                           '        </td>\n' +
+                           '    </tr>';
+                   tbodyEle.append(trEle);
+                   for (var i = 0; i < valEle.length; i++) {
+                      $(valEle[i]).data({i:$(valEle[i]).val()})
+                   }
+                   var $tdEle=tbodyEle.children().last().find("td");
+                   $($tdEle[0]).text($(valEle[0]).data("i"));
+                   $($tdEle[1]).text($(valEle[0]).data("i"));
+                   $(this).parent().find("p").find('input').val("");
+                    bmEle.addClass("hide3");
+                    flag=0;
+               }else if(flag===2){
+                   // 在修改按钮绑定的事件中，
+                   // 已经将自身的标签对象传给了
+                   //tbodyEle.data('trobj')所以在这里就拿到了所点击编辑按钮的
+                   // 那一行标签
+                var trEle2=tbodyEle.data('trobj').find('td');
+                console.log('trele2--->',trEle2);
+
+                    $(trEle2[0]).text($(inDaEle$[0]).val());
+                    $(trEle2[1]).text($(inDaEle$[1]).val());
+                    $(inDaEle$[0]).val("");
+                $(inDaEle$[1]).val("");
+                 bmEle.addClass("hide3");
+               }
+           });
+
+            // 因为html中新增后的标签属于未来元素，利用事件冒泡逐级上报的
+            //机制来完成 对外来元素的操纵
+                 // 给每一行的删除按钮绑定事件
+            tbodyEle.on("click",".can",function () {
+                console.log(this);
+                $(this).parent().parent().remove();
+            })
+
+
+
+
+
+        })
+    </script>
+    <style>
+        .back-pro{
+            background-color: rgba(0,0,0,0.3);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 998;
+        }
+        .medo{
+            border: 1px solid #95ffeb;
+            width: 400px;
+            height: 400px;
+            background-color: white;
+            margin-top: 25%;
+            margin-left: 50%;
+            left:-300px;
+            top: -300px;
+            z-index: 1000;
+            position: fixed;
+        }
+        .hide3{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="back-pro hide3"></div>
+<div class="medo hide3">
+
+    <form action="" id="s1">
+        <p>用户名<input type="text"></p>
+        <p>爱好<input type="text"></p>
+
+         <input type="button" id="t1" value="提交">
+        <input type="button" id="c1" value="取消">
+    </form>
+</div>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>姓名</th>
+        <th>爱好</th>
+        <th>操作</th>
+    </tr>
+
+    </thead>
+    <tbody>
+    <tr>
+        <td>你妹</td>
+        <td>吃粑粑</td>
+        <td>
+            <input type="button" class="e1" value="编辑">
+            <input type="button" class="can" value="删除">
+        </td>
+    </tr>
+    <tr>
+        <td>你妹1</td>
+        <td>吃粑粑1</td>
+        <td>
+           <input type="button" class="e1" value="编辑">
+            <input type="button" class="can" value="删除">
+    </tr>
+    <tr>
+        <td>你妹2</td>
+        <td>吃粑粑2</td>
+        <td>
+        <input type="button" class="e1" value="编辑">
+            <input type="button" class="can" value="删除">
+    </tr>
+    </tbody>
+</table>
+
+<div><button id="add_d1" value="1">新增</button></div>
+<input type="text" id="d222">
+</body>
+</html>

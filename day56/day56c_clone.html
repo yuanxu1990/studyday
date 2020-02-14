@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button class="b1">屠龙宝刀</button>
+
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+$(".b1").click(function () {
+    //  clone如果加了true 会将元素的绑定事件一块克隆过来
+    $(this).clone(true).insertAfter(this);
+
+})
+
+
+</script>
+</body>
+</html>
