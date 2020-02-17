@@ -11,3 +11,8 @@ list3=foo(28)
 print(list1)
 print(list2)
 print(list3)
+n=0
+while n<10:
+    n+=1
+    if n==2:
+        continue
