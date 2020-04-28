@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="d1" onclick="showText(this);">d1</div>
+<div id="d2" onclick="showText(this);">d2</div>
+
+
+<script>
+
+
+    function showText(ths) {
+            console.log(ths.innerText);
+            ths.style.color="green";
+    }
+    var divEles=document.getElementsByTagName('div');
+    for (var i=0;i<divEles.length;i++){
+        divEles[i].ondblclick=function () {
+            alert(this.innerText+'8888');
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+        /*
+        1 新增按钮绑定事件
+            移除 hied属性 因为 在模态框中提交或取消后还需要多次 添加和移除，所以直接写两个函数处理
+
+        2 模态框内取消按钮绑定事件
+            增加 hide属性，同时清空模态框输入内容
+        3 编辑按钮绑定事件：
+                考虑未来元素触发的情况
+                找到点击编辑按钮的tr标签并传入tbody的data中，在模态框展示时判断是新增的入口还是编辑的入口
+
+        4 删除按钮绑定事件
+                考虑未来元素触发的情况
+                找到点击删除按钮的tr标签后的tr标签并且将序号的td都-1
+                找到点击删除按钮的tr标签进行删除
+        5 模态框内提交按钮
+              根据tbody的键取值，来判断入口
+              如果是新增，则创建元素，并获取模态框中的输入值，赋予所创建模态框内对应的td，然后插入tbody
+              然后清空模态框输入的值  并隐藏模态框
+
+              如果是编辑，则tbody中的值一定不是undefinde，并能取出来对应行的对象，然后获取对应行的td分别填入到input框中
+              点击提交后 重新获取模态框中的值，并更新到对应行的对应位置中
+              然后清空 tbody中的data、
+
+         */
+            //定义两个函数操纵模态框
+            var mode_display=$('.backs,.mode');
+            function showmode() {
+                mode_display.removeClass('hides');
+            }
+            function delemode() {
+                mode_display.addClass('hides');
+            }
+            // 新增按钮
+            $('#add').on('click',function () {
+                showmode();
+            });
+            // 模态框中的取消按钮
+            $('.can').on('click',function () {
+                $('#f1').find('input[type="text"]').val("");
+                $tbodyEle.removeData();
+                delemode()
+            });
+            // 编辑按钮
+            var $tbodyEle=$('tbody');
+            var $inputEle= $('#f1').find('input[type="text"]');
+
+            //编辑按钮
+            $tbodyEle.on('click','.edit',function () {
+               var $trEle =$(this).parent().parent();
+               //  将已经存在的数据放入到模态框输入框中
+                $($inputEle[0]).val(($($trEle.children()[1]).text()));
+                 $($inputEle[1]).val(($($trEle.children()[2]).text()));
+               showmode();
+
+               $tbodyEle.data({'trEle':$trEle});
+            });
+            //删除
+            $tbodyEle.on('click','.deles',function () {
+               $(this).parent().parent().remove();
+            });
+
+            // 模态框提交按钮
+            $('.commit').on('click',function () {
+
+                var trDateEle=$tbodyEle.data('trEle');
+                if (trDateEle!==undefined){
+
+                    ($(trDateEle.children()[1]).text($($inputEle[0]).val()));
+                    ($(trDateEle.children()[2]).text($($inputEle[1]).val()));
+                      $tbodyEle.removeData();
+                }else{
+                    var userVal=$($inputEle[0]).val();
+                    var hobbVal=$($inputEle[1]).val();
+                    var numVal=$tbodyEle.children().length+1;
+                    var traddEle=document.createElement('tr');
+                    $(traddEle).html('<td>'+numVal+'</td>'
+                        +'<td>'+userVal+'</td>'
+                        +'<td>'+hobbVal+'</td>'
+                        +'<td>'
+                        + '<input type="button" value="编辑" class="edit">'
+                        + ' <input type="button" value="删除" class="deles">'
+                        +'</td>');
+                    $tbodyEle.append(traddEle);
+                    delemode();
+                    $($inputEle[0]).val("");
+                    $($inputEle[1]).val("");
+                }
+            })
+
+        })
+    </script>
+    <style>
+            .backs{
+                background-color: rgba(0,0,0,0.3);
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom:0;
+                left: 0;
+                z-index: 998;
+            }
+            .mode{
+                width: 400px;
+                height: 200px;
+                background-color: white;
+                /*因为在生产环境中，无法确定用户屏幕大小
+                所以只能先将定位点放在中间位置
+                */
+
+                margin-left: 50%;
+                margin-top: 25%;
+                /*
+                将div在 移动宽度和高度的一半就能保持
+                在中间位置
+                */
+
+                position: absolute;
+                left: -200px;
+                top: -100px;
+                z-index: 1000;
+
+            }
+            .hides{
+                display: none;
+            }
+    </style>
+</head>
+<body>
+<div class="div1">
+  <table border="1">
+
+      <thead>
+      <tr>
+          <th>序号</th>
+          <th>姓名</th>
+          <th>爱好</th>
+          <th>
+             操作
+          </th>
+      </tr>
+      </thead>
+
+      <tbody >
+      <tr>
+          <td>1</td>
+          <td>元宝</td>
+          <td>玩游戏</td>
+          <td>
+               <input type="button" value="编辑" class="edit">
+              <input type="button" value="删除" class="deles">
+          </td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>袁妞</td>
+          <td>吃粑粑</td>
+          <td>
+               <input type="button" value="编辑" class="edit">
+              <input type="button" value="删除" class="deles">
+          </td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>王永美</td>
+          <td>玩狗屎</td>
+          <td>
+               <input type="button" value="编辑" class="edit">
+              <input type="button" value="删除" class="deles">
+          </td>
+      </tr>
+
+
+      </tbody>
+  </table>
+
+</div>
+<div class="backs hides"></div>
+<div class="mode hides">
+
+    <form action="" id="f1">
+        <p>用户名：<input type="text"></p>
+        <p>爱好：<input type="text"></p>
+        <p><input type="button" value="提交" class="commit" >
+            <input type="button" value="取消" class="can"></p>
+    </form>
+</div>
+<input type="button" value="新增" id="add">
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label for="s1">爱好</label>
+<form action="" id="s1" >
+    篮球：<input type="checkbox" value="1">
+      棒球：<input type="checkbox" value="2">
+      足球：<input type="checkbox" value="3">
+</form>
+
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+    var $checked=$(":checkbox:checked");
+for (var i=0;i<$checked.length;i++){
+    console.log($checked[i]);
+    console.log($($checked[i]).val())
+}
+
+</script>
+
+</body>
+</html>
